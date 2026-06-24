@@ -8,12 +8,14 @@ public class PlayerCombat : MonoBehaviour
     public float Speed = 1.0f;
     public GameObject BulletPrefab; // 총알 프리팹을 담을 변수
 
+
     // 자동 연사를 위한 타이머 변수
     public float FireRate = 0.2f;   // 총알 발사 간격 (0.2초에 한 번씩 발사)
     private float lastFireTime = 0f; // 마지막으로 총알을 발사한 시각을 저장
 
     private SpriteRenderer spriteRenderer;
     private bool isColliding = false;
+
 
     private void Awake()
     {
@@ -52,7 +54,7 @@ public class PlayerCombat : MonoBehaviour
         // 일반적인 16:9 해상도의 종스크롤 슈팅 기준 안전 구역입니다.
         // Mathf.Clamp(현재값, 최소값, 최대값) -> 현재값이 최소와 최대 범위를 절대 벗어나지 못하게 꽉 잡아줍니다.
         float clampedX = Mathf.Clamp(transform.position.x, -2.8f, 2.8f);
-        float clampedY = Mathf.Clamp(transform.position.y, -4.5f, 4.5f);
+        float clampedY = Mathf.Clamp(transform.position.y, -4.8f, 4.8f);
 
         // 제한된 좌표를 플레이어 위치에 다시 강제로 대입합니다.
         transform.position = new Vector3(clampedX, clampedY, 0f);
@@ -84,6 +86,13 @@ public class PlayerCombat : MonoBehaviour
         {
             isColliding = true;
             StartCoroutine(CollisionEffect());
+
+            //GameManager.Instance.HP <= 0 == Dead 
+        }
+
+        if (GameManager.Instance.PlayerHP <= 0)
+        {
+            GameManager.Instance.TriggerGameOver();
         }
     }
 

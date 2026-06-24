@@ -1,5 +1,6 @@
 using UnityEngine;
-using TMPro; // TextMeshPro를 사용하기 위해 반드시 필수로 추가해야 합니다.
+using TMPro;
+using Unity.VisualScripting; // TextMeshPro를 사용하기 위해 반드시 필수로 추가해야 합니다.
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     private bool isBossSpawned = false;
     private bool isGameOver = false;
     public bool IsBossStage { get; private set; } = false; // 보스 스테이지 여부 (기본값 false)
+    public int PlayerHP = 5;
 
     [Header("Cached References")]
     public GameObject EnemySpawner;   // 꺼버릴 일반 적 스포너 오브젝트
@@ -20,6 +22,10 @@ public class GameManager : MonoBehaviour
     [Header("UI Elements")]
     public TextMeshProUGUI TimerText; // 타이머 UI 연결용
     public TextMeshProUGUI ScoreText; // 점수 UI 연결용
+
+    [Header("End Game UI Canvases")]
+    public GameObject GameOverCanvas;
+    public GameObject VictoryCanvas;
 
     private void Awake()
     {
@@ -76,7 +82,7 @@ public class GameManager : MonoBehaviour
     {
         if (ScoreText != null)
         {
-            ScoreText.text =  playerScore.ToString("N0"); // 1,000 단위 쉼표 포맷팅
+            ScoreText.text = playerScore.ToString("N0"); // 1,000 단위 쉼표 포맷팅
         }
     }
 
@@ -107,6 +113,37 @@ public class GameManager : MonoBehaviour
         {
             Vector3 bossSpawnPos = new Vector3(0f, 4.0f, 0f);
             Instantiate(BossPrefab, bossSpawnPos, Quaternion.identity);
+        }
+    }
+
+    public void TriggerGameOver()
+    {
+        if (isGameOver) return;
+
+        isGameOver = true;
+        Debug.Log("GAME OVER");
+
+        if (EnemySpawner != null)
+        {
+            EnemySpawner.SetActive(false);
+        }
+
+        if (GameOverCanvas != null)
+        {
+            GameOverCanvas.SetActive(true);
+        }
+    }
+
+    public void TriggerVictoryClear()
+    {
+        if (isGameOver) return;
+
+        isGameOver = true;
+        Debug.Log("VICTORY");
+
+        if (VictoryCanvas != null)
+        {
+            VictoryCanvas.SetActive(true);
         }
     }
 }
