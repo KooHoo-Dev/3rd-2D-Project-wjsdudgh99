@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
             // 타이머 UI 가독성을 위해 정수(int)형태로 포맷팅하여 갱신합니다.
             if (TimerText != null)
             {
-                TimerText.text = "TIME: " + Mathf.Max(0, (int)SurviveTime) + "s";
+                TimerText.text = Mathf.Max(0, (int)SurviveTime) + "s";
             }
         }
         // 2. 0초 도달 시 일반 적 스폰을 끄고 보스 소환
@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
     {
         if (ScoreText != null)
         {
-            ScoreText.text = "SCORE : " + playerScore.ToString("N0"); // 1,000 단위 쉼표 포맷팅
+            ScoreText.text =  playerScore.ToString("N0"); // 1,000 단위 쉼표 포맷팅
         }
     }
 
@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
 
         if (TimerText != null)
         {
-            TimerText.text = "BOSS WARNING!";
+            TimerText.text = "WARNING";
             TimerText.color = Color.red;
         }
 

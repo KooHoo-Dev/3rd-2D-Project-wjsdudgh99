@@ -5,7 +5,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject Enemy1Prefab; // 일반 적 프리팹
     public GameObject Enemy2Prefab;      // 3갈래 적 프리팹
 
-    public float SpawnRate = 1.5f;       // 적 생성 주기
+    public float SpawnRate = 1f;       // 적 생성 주기
     private float lastSpawnTime = 0f;
 
     void Update()
@@ -22,7 +22,7 @@ public class EnemySpawner : MonoBehaviour
             int randomEnemy = Random.Range(0, 2);
 
             float randomX = Random.Range(-3.0f, 3.0f);
-            Vector3 spawnPosition = new Vector3(randomX, 6.0f, 0f);
+            Vector3 spawnPosition = new Vector3(randomX, 6.0f, 0);
 
             if (randomEnemy == 0 && Enemy1Prefab != null)
             {
