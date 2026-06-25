@@ -16,7 +16,9 @@ public class PlayerCombat : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private bool isColliding = false;
 
-    public int PlayerHp { get; private set; }
+    public int PlayerHp = 5;
+
+    public bool IsDead = false;
 
     private void Awake()
     {
@@ -83,28 +85,74 @@ public class PlayerCombat : MonoBehaviour
     // 3. 충돌 처리 (장애물이나 적 비행기와 부딪혔을 때)
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if ((isColliding == false) && (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy")))
-        {
-            isColliding = true;
-            StartCoroutine(CollisionEffect());
+        //if ((isColliding == false) && (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy")))
+        //{
+        //    isColliding = true;
+        //    StartCoroutine(CollisionEffect());
 
-            //GameManager.Instance.HP <= 0 == Dead 
+        //    PlayerHp -= 1;
+
+        //    if (IsDead == true)
+        //    {
+        //        return;
+        //    }
+
+        //    if (PlayerHp <= 0)
+        //    {
+        //        IsDead = true;
+
+        //        GameManager.Instance.TriggerGameOver();
+
+        //        Destroy(gameObject);
+        //    }
+        //}
+
+        if (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy"))
+        {
+            if (IsDead == true)
+            {
+                return;
+            }
+
+            if (isColliding == true)
+            {
+                return;
+            }
+
+            isColliding = true;
+
+            PlayerHp -= 1;
+
+            Destroy(collider.gameObject);
+
+            if (PlayerHp <= 0)
+            {
+                IsDead = true;
+
+                GameManager.Instance.TriggerGameOver();
+
+                Destroy(gameObject);
+
+                return;
+            }
+
+            if (PlayerHp > 0)
+            {
+                StartCoroutine(CollisionEffect());
+            }
         }
 
         //if (GameManager.Instance.PlayerHP <= 0)
         //{
         //    GameManager.Instance.TriggerGameOver();
         //}
-
-        if (PlayerHp <= 0)
-        {
-            GameManager.Instance.TriggerGameOver();
-        }
     }
 
     // 4. 피격 시 무적/깜빡임 연출 코루틴
     private IEnumerator CollisionEffect()
     {
+        isColliding = true;
+
         Color origin = spriteRenderer.color;
         Color effect = spriteRenderer.color;
         effect.a = 0.2f; // 알파값을 흐리게 변경
@@ -120,5 +168,6 @@ public class PlayerCombat : MonoBehaviour
         }
 
         isColliding = false;
+
     }
 }
