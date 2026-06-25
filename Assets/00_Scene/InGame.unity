@@ -826,6 +826,8 @@ MonoBehaviour:
   ScoreText: {fileID: 1352598356}
   GameOverCanvas: {fileID: 1759712472}
   VictoryCanvas: {fileID: 1040012225}
+  VictoryButton: {fileID: 1878950979}
+  GameOverButton: {fileID: 543190645}
 --- !u!4 &1021189222
 Transform:
   m_ObjectHideFlags: 0

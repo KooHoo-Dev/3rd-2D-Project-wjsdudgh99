@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +29,10 @@ public class GameManager : MonoBehaviour
     public GameObject GameOverCanvas;
     public GameObject VictoryCanvas;
 
+    [Header("Main Menu Button")]
+    public Button GameOverMainMenuButton;
+    public Button VictoryMainMenuButton;
+
     private void Awake()
     {
         // 싱글톤 세팅
@@ -45,6 +50,9 @@ public class GameManager : MonoBehaviour
     {
         // 게임 시작 시 점수판 초기화
         UpdateScoreUI();
+
+        GameOverMainMenuButton.onClick.AddListener(GoToMainMenu);
+        VictoryMainMenuButton.onClick.AddListener(GoToMainMenu);
     }
 
     void Update()
@@ -150,6 +158,8 @@ public class GameManager : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        Debug.Log("11");
+
         SceneManager.LoadScene(MainMenu);
     }
 }
