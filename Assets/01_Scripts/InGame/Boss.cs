@@ -140,10 +140,10 @@ public class Boss : MonoBehaviour
             {
                 GameManager.Instance.AddScore(5000); // 보스 클리어 대량 보너스 점수!
 
-                // [추후 구현 힌트]: 여기에 승리 결과 씬으로 넘어가는 로직 연동
-                // GameManager.Instance.VictoryClear();
+                GameManager.Instance.TriggerVictoryClear();
 
                 Destroy(gameObject); // 보스 파괴
+
             }
         }
     }

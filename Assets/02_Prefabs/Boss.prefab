@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95fa5e13b22d79c45aa02454a356a7fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boss
-  Hp: 350
+  Hp: 10
   Speed: 1.5
   EnemyBulletPrefab: {fileID: 5444016428913447407, guid: 7d69d1562c2edfd438f32263bdfa4902, type: 3}
   BossMissilePrefab: {fileID: 3037194538079990489, guid: cc4915b1070b4504da2018356829f7f5, type: 3}

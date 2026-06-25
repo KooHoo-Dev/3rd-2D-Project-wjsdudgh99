@@ -16,6 +16,7 @@ public class PlayerCombat : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private bool isColliding = false;
 
+    public int PlayerHp { get; private set; }
 
     private void Awake()
     {
@@ -90,7 +91,12 @@ public class PlayerCombat : MonoBehaviour
             //GameManager.Instance.HP <= 0 == Dead 
         }
 
-        if (GameManager.Instance.PlayerHP <= 0)
+        //if (GameManager.Instance.PlayerHP <= 0)
+        //{
+        //    GameManager.Instance.TriggerGameOver();
+        //}
+
+        if (PlayerHp <= 0)
         {
             GameManager.Instance.TriggerGameOver();
         }
