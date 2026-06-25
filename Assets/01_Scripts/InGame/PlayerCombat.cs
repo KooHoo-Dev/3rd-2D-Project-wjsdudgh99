@@ -27,7 +27,6 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        // 1. 플레이어 이동 로직
         Vector3 moveVector = new Vector3(0, 0, 0);
 
         if (Keyboard.current.upArrowKey.isPressed)

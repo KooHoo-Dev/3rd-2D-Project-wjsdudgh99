@@ -1,11 +1,13 @@
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting; // TextMeshPro를 사용하기 위해 반드시 필수로 추가해야 합니다.
+using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     // 싱글톤 패턴: 어디서나 GameManager.Instance로 쉽게 접근할 수 있게 만듭니다.
     public static GameManager Instance { get; private set; }
+    public string MainMenu;
 
     [Header("Stage Settings")]
     public float SurviveTime = 60.0f; // 60초 생존 제한시간
@@ -144,5 +146,10 @@ public class GameManager : MonoBehaviour
         {
             VictoryCanvas.SetActive(true);
         }
+    }
+
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene(MainMenu);
     }
 }
