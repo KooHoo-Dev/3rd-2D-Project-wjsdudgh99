@@ -154,5 +154,5 @@ MonoBehaviour:
   Hp: 6
   Speed: 3
   EnemyBulletPrefab: {fileID: 5444016428913447407, guid: 7d69d1562c2edfd438f32263bdfa4902, type: 3}
-  FireRate: 2
+  FireRate: 2.5
   PatrolRange: 1.5

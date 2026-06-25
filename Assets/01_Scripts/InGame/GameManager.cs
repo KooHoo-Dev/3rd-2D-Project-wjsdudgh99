@@ -3,6 +3,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class GameManager : MonoBehaviour
     private bool isBossSpawned = false;
     private bool isGameOver = false;
     public bool IsBossStage { get; private set; } = false; // 보스 스테이지 여부 (기본값 false)
+    private bool IsGameStarted = false;
 
     [Header("Cached References")]
     public GameObject EnemySpawner;   // 꺼버릴 일반 적 스포너 오브젝트
@@ -24,6 +26,7 @@ public class GameManager : MonoBehaviour
     [Header("UI Elements")]
     public TextMeshProUGUI TimerText; // 타이머 UI 연결용
     public TextMeshProUGUI ScoreText; // 점수 UI 연결용
+    public TextMeshProUGUI CountdownText;
 
     [Header("End Game UI Canvases")]
     public GameObject GameOverCanvas;
@@ -53,11 +56,24 @@ public class GameManager : MonoBehaviour
 
         GameOverMainMenuButton.onClick.AddListener(GoToMainMenu);
         VictoryMainMenuButton.onClick.AddListener(GoToMainMenu);
+
+        if (EnemySpawner != null)
+        {
+            EnemySpawner.SetActive(false);
+        }
+
+        StartCoroutine(CountdownRoutine());
     }
+
 
     void Update()
     {
         if (isGameOver) return;
+
+        if (IsGameStarted == false)
+        {
+            return;
+        }
 
         // 1. 60초 타이머 흐르기 및 실시간 UI 갱신
         if (SurviveTime > 0)
@@ -158,8 +174,32 @@ public class GameManager : MonoBehaviour
 
     public void GoToMainMenu()
     {
-        Debug.Log("11");
+        Debug.Log("GoToMainMenu");
 
         SceneManager.LoadScene(MainMenu);
+    }
+
+
+    private IEnumerator CountdownRoutine()
+    {
+        CountdownText.text = "3";
+        yield return new WaitForSeconds(1f); ;
+
+        CountdownText.text = "2";
+        yield return new WaitForSeconds(1f);
+
+        CountdownText.text = "1";
+        yield return new WaitForSeconds(1f);
+
+        CountdownText.text = "START";
+        IsGameStarted = true;
+        if (EnemySpawner != null)
+        {
+            EnemySpawner.SetActive(true);
+        }
+        yield return new WaitForSeconds(0.5f);
+
+        CountdownText.text = "";
+        yield return new WaitForSeconds(1f);
     }
 }
