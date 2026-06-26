@@ -25,6 +25,11 @@ public class PlayerCombat : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    private void Start()
+    {
+        GameManager.Instance.UpdateLife(PlayerHp);
+    }
+
     void Update()
     {
         Vector3 moveVector = new Vector3(0, 0, 0);
@@ -121,6 +126,8 @@ public class PlayerCombat : MonoBehaviour
             isColliding = true;
 
             PlayerHp -= 1;
+
+            GameManager.Instance.UpdateLife(PlayerHp);
 
             Destroy(collider.gameObject);
 

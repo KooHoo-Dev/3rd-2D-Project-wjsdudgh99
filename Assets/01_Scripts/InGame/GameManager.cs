@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI TimerText; // 타이머 UI 연결용
     public TextMeshProUGUI ScoreText; // 점수 UI 연결용
     public TextMeshProUGUI CountdownText;
+    public TextMeshProUGUI LifeCountText;
 
     [Header("End Game UI Canvases")]
     public GameObject GameOverCanvas;
@@ -90,6 +91,14 @@ public class GameManager : MonoBehaviour
         else if (isBossSpawned == false)
         {
             SpawnBossStage();
+        }
+    }
+
+    public void UpdateLife(int currentLife)
+    {
+        if (LifeCountText != null)
+        {
+            LifeCountText.text = currentLife.ToString();
         }
     }
 
@@ -157,6 +166,8 @@ public class GameManager : MonoBehaviour
         {
             GameOverCanvas.SetActive(true);
         }
+
+        Time.timeScale = 0f;
     }
 
     public void TriggerVictoryClear()
@@ -170,11 +181,15 @@ public class GameManager : MonoBehaviour
         {
             VictoryCanvas.SetActive(true);
         }
+
+        Time.timeScale = 0f;
     }
 
     public void GoToMainMenu()
     {
         Debug.Log("GoToMainMenu");
+
+        Time.timeScale = 1f;
 
         SceneManager.LoadScene(MainMenu);
     }

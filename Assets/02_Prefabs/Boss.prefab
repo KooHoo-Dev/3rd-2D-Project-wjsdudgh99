@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 343802476814702038}
   - component: {fileID: 5913369846308013427}
-  - component: {fileID: 8130059608554261719}
   - component: {fileID: 2941362080946302094}
+  - component: {fileID: 8130059608554261719}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Enemy
@@ -93,6 +93,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2941362080946302094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522576866805546797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95fa5e13b22d79c45aa02454a356a7fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Boss
+  Hp: 400
+  Speed: 1.5
+  EnemyBulletPrefab: {fileID: 5444016428913447407, guid: 7d69d1562c2edfd438f32263bdfa4902, type: 3}
+  BossMissilePrefab: {fileID: 3037194538079990489, guid: cc4915b1070b4504da2018356829f7f5, type: 3}
+  FireRate: 0.7
 --- !u!61 &8130059608554261719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -139,20 +156,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8828125, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2941362080946302094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3522576866805546797}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95fa5e13b22d79c45aa02454a356a7fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Boss
-  Hp: 400
-  Speed: 1.5
-  EnemyBulletPrefab: {fileID: 5444016428913447407, guid: 7d69d1562c2edfd438f32263bdfa4902, type: 3}
-  BossMissilePrefab: {fileID: 3037194538079990489, guid: cc4915b1070b4504da2018356829f7f5, type: 3}
-  FireRate: 0.7
