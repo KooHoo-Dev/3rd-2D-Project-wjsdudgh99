@@ -37,6 +37,10 @@ public class GameManager : MonoBehaviour
     public Button GameOverMainMenuButton;
     public Button VictoryMainMenuButton;
 
+    //[Header("Retry Button")]
+    //public Button GameOverRetryButton;
+    //public Button VictoryRetryButton;
+
     private void Awake()
     {
         // 싱글톤 세팅
@@ -62,6 +66,9 @@ public class GameManager : MonoBehaviour
         {
             EnemySpawner.SetActive(false);
         }
+
+        //GameOverRetryButton.onClick.AddListener(Retry);
+        //VictoryRetryButton.onClick.AddListener(Retry);
 
         StartCoroutine(CountdownRoutine());
     }
@@ -193,6 +200,15 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene(MainMenu);
     }
+
+    //public void Retry()
+    //{
+    //    Debug.Log("Retry");
+
+    //    Time.timeScale = 1f;
+
+    //    SceneManager.LoadScene(MainMenu);
+    //}
 
 
     private IEnumerator CountdownRoutine()
