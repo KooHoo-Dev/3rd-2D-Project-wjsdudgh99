@@ -98,7 +98,7 @@ public class GameManager : MonoBehaviour
     {
         if (LifeCountText != null)
         {
-            LifeCountText.text = currentLife.ToString();
+            LifeCountText.text = currentLife.ToString("♥ : " + currentLife);
         }
     }
 
@@ -127,7 +127,7 @@ public class GameManager : MonoBehaviour
 
         if (TimerText != null)
         {
-            TimerText.text = "WARNING";
+            TimerText.text = "BOSS";
             TimerText.color = Color.red;
         }
 
