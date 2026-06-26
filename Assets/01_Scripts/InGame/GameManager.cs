@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour
     public Button GameOverMainMenuButton;
     public Button VictoryMainMenuButton;
 
-    //[Header("Retry Button")]
-    //public Button GameOverRetryButton;
-    //public Button VictoryRetryButton;
+    [Header("Retry Button")]
+    public Button GameOverRetryButton;
+    public Button VictoryRetryButton;
 
     private void Awake()
     {
@@ -67,8 +67,8 @@ public class GameManager : MonoBehaviour
             EnemySpawner.SetActive(false);
         }
 
-        //GameOverRetryButton.onClick.AddListener(Retry);
-        //VictoryRetryButton.onClick.AddListener(Retry);
+        GameOverRetryButton.onClick.AddListener(Retry);
+        VictoryRetryButton.onClick.AddListener(Retry);
 
         StartCoroutine(CountdownRoutine());
     }
@@ -201,14 +201,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(MainMenu);
     }
 
-    //public void Retry()
-    //{
-    //    Debug.Log("Retry");
+    public void Retry()
+    {
+        Debug.Log("Retry");
 
-    //    Time.timeScale = 1f;
+        Time.timeScale = 1f;
 
-    //    SceneManager.LoadScene(MainMenu);
-    //}
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
 
     private IEnumerator CountdownRoutine()

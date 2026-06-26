@@ -680,7 +680,7 @@ GameObject:
   - component: {fileID: 455709292}
   - component: {fileID: 455709291}
   m_Layer: 5
-  m_Name: MainMenuButton (1)
+  m_Name: MainMenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -885,7 +885,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1021189221}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: GoToMainMenu
+        m_MethodName: Retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1374,6 +1374,8 @@ MonoBehaviour:
   VictoryCanvas: {fileID: 1040012225}
   GameOverMainMenuButton: {fileID: 543190645}
   VictoryMainMenuButton: {fileID: 1878950979}
+  GameOverRetryButton: {fileID: 543190645}
+  VictoryRetryButton: {fileID: 1214034380}
 --- !u!4 &1021189222
 Transform:
   m_ObjectHideFlags: 0
@@ -1578,7 +1580,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1021189221}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: GoToMainMenu
+        m_MethodName: Retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,0 +1,5070 @@
+fileFormatVersion: 2
+guid: 923c54c3dd0dac64e99d11e70c1db336
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8715181203312683344
+    second: sprite_sheet Killer Gossy_0
+  - first:
+      213: 7230414281985519658
+    second: sprite_sheet Killer Gossy_1
+  - first:
+      213: -7562590958253747082
+    second: sprite_sheet Killer Gossy_2
+  - first:
+      213: 2106969525872586181
+    second: sprite_sheet Killer Gossy_3
+  - first:
+      213: -6701116227405184539
+    second: sprite_sheet Killer Gossy_4
+  - first:
+      213: 155288929984481135
+    second: sprite_sheet Killer Gossy_5
+  - first:
+      213: -5159854852073620260
+    second: sprite_sheet Killer Gossy_6
+  - first:
+      213: -6322222881324482159
+    second: sprite_sheet Killer Gossy_7
+  - first:
+      213: 4693238053508858376
+    second: sprite_sheet Killer Gossy_8
+  - first:
+      213: -7293793551632397546
+    second: sprite_sheet Killer Gossy_9
+  - first:
+      213: -7590655189304680765
+    second: sprite_sheet Killer Gossy_10
+  - first:
+      213: 8345151595006724603
+    second: sprite_sheet Killer Gossy_11
+  - first:
+      213: -3213806586379123305
+    second: sprite_sheet Killer Gossy_12
+  - first:
+      213: 5802847554137210603
+    second: sprite_sheet Killer Gossy_13
+  - first:
+      213: -2162522326087479412
+    second: sprite_sheet Killer Gossy_14
+  - first:
+      213: 6901572181464109960
+    second: sprite_sheet Killer Gossy_15
+  - first:
+      213: 6526369294242608606
+    second: sprite_sheet Killer Gossy_16
+  - first:
+      213: -4772043206064670641
+    second: sprite_sheet Killer Gossy_17
+  - first:
+      213: 5897423184795688546
+    second: sprite_sheet Killer Gossy_18
+  - first:
+      213: 2680627258631555479
+    second: sprite_sheet Killer Gossy_19
+  - first:
+      213: -3127019497129527735
+    second: sprite_sheet Killer Gossy_20
+  - first:
+      213: 9215429942079154280
+    second: sprite_sheet Killer Gossy_21
+  - first:
+      213: 7898330907631164227
+    second: sprite_sheet Killer Gossy_22
+  - first:
+      213: -1426887269028104706
+    second: sprite_sheet Killer Gossy_23
+  - first:
+      213: 43356748565411433
+    second: sprite_sheet Killer Gossy_24
+  - first:
+      213: -7436882083724889360
+    second: sprite_sheet Killer Gossy_25
+  - first:
+      213: -5397746391443816749
+    second: sprite_sheet Killer Gossy_26
+  - first:
+      213: 5904561711972185714
+    second: sprite_sheet Killer Gossy_27
+  - first:
+      213: -4419964943807010117
+    second: sprite_sheet Killer Gossy_28
+  - first:
+      213: -3220585577879856517
+    second: sprite_sheet Killer Gossy_29
+  - first:
+      213: -3921204313877703363
+    second: sprite_sheet Killer Gossy_30
+  - first:
+      213: 1307704923972564135
+    second: sprite_sheet Killer Gossy_31
+  - first:
+      213: -8726361363099771801
+    second: sprite_sheet Killer Gossy_32
+  - first:
+      213: 418978293981368042
+    second: sprite_sheet Killer Gossy_33
+  - first:
+      213: 2365195357601257708
+    second: sprite_sheet Killer Gossy_34
+  - first:
+      213: -6182847736437007030
+    second: sprite_sheet Killer Gossy_35
+  - first:
+      213: -5339152216744750862
+    second: sprite_sheet Killer Gossy_36
+  - first:
+      213: 6100020056297563793
+    second: sprite_sheet Killer Gossy_37
+  - first:
+      213: -6701116161758626789
+    second: sprite_sheet Killer Gossy_38
+  - first:
+      213: -2885559986813236751
+    second: sprite_sheet Killer Gossy_39
+  - first:
+      213: 2097459161699509118
+    second: sprite_sheet Killer Gossy_40
+  - first:
+      213: 6778505901122791034
+    second: sprite_sheet Killer Gossy_41
+  - first:
+      213: -588181092119086367
+    second: sprite_sheet Killer Gossy_42
+  - first:
+      213: -1421241924194123291
+    second: sprite_sheet Killer Gossy_43
+  - first:
+      213: 3103577540183763907
+    second: sprite_sheet Killer Gossy_44
+  - first:
+      213: -7882540670939451566
+    second: sprite_sheet Killer Gossy_45
+  - first:
+      213: 3279069219043647902
+    second: sprite_sheet Killer Gossy_46
+  - first:
+      213: -6100286487162348168
+    second: sprite_sheet Killer Gossy_47
+  - first:
+      213: 5389588367884778710
+    second: sprite_sheet Killer Gossy_48
+  - first:
+      213: 6618184755425836842
+    second: sprite_sheet Killer Gossy_49
+  - first:
+      213: 327797217601868973
+    second: sprite_sheet Killer Gossy_50
+  - first:
+      213: 5203914047003776425
+    second: sprite_sheet Killer Gossy_51
+  - first:
+      213: -6711721602358017738
+    second: sprite_sheet Killer Gossy_52
+  - first:
+      213: 6681490689209104126
+    second: sprite_sheet Killer Gossy_53
+  - first:
+      213: -1909853726568212936
+    second: sprite_sheet Killer Gossy_54
+  - first:
+      213: -304763388188282665
+    second: sprite_sheet Killer Gossy_55
+  - first:
+      213: 9114817328658576709
+    second: sprite_sheet Killer Gossy_56
+  - first:
+      213: -7628688946249854328
+    second: sprite_sheet Killer Gossy_57
+  - first:
+      213: 8180623211072176814
+    second: sprite_sheet Killer Gossy_58
+  - first:
+      213: 3324834157358245177
+    second: sprite_sheet Killer Gossy_59
+  - first:
+      213: -6783092030233212220
+    second: sprite_sheet Killer Gossy_60
+  - first:
+      213: -2375556254591730766
+    second: sprite_sheet Killer Gossy_61
+  - first:
+      213: 1601930174678986004
+    second: sprite_sheet Killer Gossy_62
+  - first:
+      213: 7545199167296927558
+    second: sprite_sheet Killer Gossy_63
+  - first:
+      213: -1900481432164205474
+    second: sprite_sheet Killer Gossy_64
+  - first:
+      213: 3027314085248754979
+    second: sprite_sheet Killer Gossy_65
+  - first:
+      213: 1840241922752070006
+    second: sprite_sheet Killer Gossy_66
+  - first:
+      213: -8343948603656706434
+    second: sprite_sheet Killer Gossy_67
+  - first:
+      213: -792576051150835002
+    second: sprite_sheet Killer Gossy_68
+  - first:
+      213: 298022256991522525
+    second: sprite_sheet Killer Gossy_69
+  - first:
+      213: -3181304331398460161
+    second: sprite_sheet Killer Gossy_70
+  - first:
+      213: -3048409774000152328
+    second: sprite_sheet Killer Gossy_71
+  - first:
+      213: 3297052328268448134
+    second: sprite_sheet Killer Gossy_72
+  - first:
+      213: -8189660014689916297
+    second: sprite_sheet Killer Gossy_73
+  - first:
+      213: -8319074935744727958
+    second: sprite_sheet Killer Gossy_74
+  - first:
+      213: -4224509814333533786
+    second: sprite_sheet Killer Gossy_75
+  - first:
+      213: -949602403612483548
+    second: sprite_sheet Killer Gossy_76
+  - first:
+      213: 2124543525048454178
+    second: sprite_sheet Killer Gossy_77
+  - first:
+      213: -7633457471507033544
+    second: sprite_sheet Killer Gossy_78
+  - first:
+      213: 2941527948494861946
+    second: sprite_sheet Killer Gossy_79
+  - first:
+      213: -6892657132487067961
+    second: sprite_sheet Killer Gossy_80
+  - first:
+      213: 3551848925111707292
+    second: sprite_sheet Killer Gossy_81
+  - first:
+      213: -7942599003307884533
+    second: sprite_sheet Killer Gossy_82
+  - first:
+      213: 3264620955110501929
+    second: sprite_sheet Killer Gossy_83
+  - first:
+      213: 7306326924333304861
+    second: sprite_sheet Killer Gossy_84
+  - first:
+      213: 1018870103153652508
+    second: sprite_sheet Killer Gossy_85
+  - first:
+      213: 3139284551936413143
+    second: sprite_sheet Killer Gossy_86
+  - first:
+      213: 1662694559177334880
+    second: sprite_sheet Killer Gossy_87
+  - first:
+      213: 8918381047925263684
+    second: sprite_sheet Killer Gossy_88
+  - first:
+      213: -7144937530904870147
+    second: sprite_sheet Killer Gossy_89
+  - first:
+      213: -8716945850652047224
+    second: sprite_sheet Killer Gossy_90
+  - first:
+      213: 2173127222394432548
+    second: sprite_sheet Killer Gossy_91
+  - first:
+      213: 1234971786375322686
+    second: sprite_sheet Killer Gossy_92
+  - first:
+      213: -3495611370355031021
+    second: sprite_sheet Killer Gossy_93
+  - first:
+      213: -7651897207279322393
+    second: sprite_sheet Killer Gossy_94
+  - first:
+      213: -2814467486801992950
+    second: sprite_sheet Killer Gossy_95
+  - first:
+      213: 2309156941045997690
+    second: sprite_sheet Killer Gossy_96
+  - first:
+      213: 7296323011078574870
+    second: sprite_sheet Killer Gossy_97
+  - first:
+      213: 7241179294541497566
+    second: sprite_sheet Killer Gossy_98
+  - first:
+      213: 3459401473945311241
+    second: sprite_sheet Killer Gossy_99
+  - first:
+      213: 4144112187067666479
+    second: sprite_sheet Killer Gossy_100
+  - first:
+      213: 7169714475170328759
+    second: sprite_sheet Killer Gossy_101
+  - first:
+      213: 6410129102530973966
+    second: sprite_sheet Killer Gossy_102
+  - first:
+      213: 7626072244650497245
+    second: sprite_sheet Killer Gossy_103
+  - first:
+      213: 3065833321519764812
+    second: sprite_sheet Killer Gossy_104
+  - first:
+      213: -4213406399395313517
+    second: sprite_sheet Killer Gossy_105
+  - first:
+      213: -1278105853749256738
+    second: sprite_sheet Killer Gossy_106
+  - first:
+      213: -4079940838471065855
+    second: sprite_sheet Killer Gossy_107
+  - first:
+      213: 4930541567427993974
+    second: sprite_sheet Killer Gossy_108
+  - first:
+      213: -6687456179339376498
+    second: sprite_sheet Killer Gossy_109
+  - first:
+      213: -1614812681367190264
+    second: sprite_sheet Killer Gossy_110
+  - first:
+      213: 4785851275747288165
+    second: sprite_sheet Killer Gossy_111
+  - first:
+      213: -4748361557576362888
+    second: sprite_sheet Killer Gossy_112
+  - first:
+      213: 1094707885794558058
+    second: sprite_sheet Killer Gossy_113
+  - first:
+      213: -5094412627979776604
+    second: sprite_sheet Killer Gossy_114
+  - first:
+      213: 5386926172986438599
+    second: sprite_sheet Killer Gossy_115
+  - first:
+      213: -7689078480628897081
+    second: sprite_sheet Killer Gossy_116
+  - first:
+      213: 2140874157652317479
+    second: sprite_sheet Killer Gossy_117
+  - first:
+      213: 4686940828419805740
+    second: sprite_sheet Killer Gossy_118
+  - first:
+      213: -1484376676462273585
+    second: sprite_sheet Killer Gossy_119
+  - first:
+      213: 7144575998192701565
+    second: sprite_sheet Killer Gossy_120
+  - first:
+      213: -393167866608889507
+    second: sprite_sheet Killer Gossy_121
+  - first:
+      213: -2257293253194545603
+    second: sprite_sheet Killer Gossy_122
+  - first:
+      213: 4962446998783889576
+    second: sprite_sheet Killer Gossy_123
+  - first:
+      213: 7631370230970782853
+    second: sprite_sheet Killer Gossy_124
+  - first:
+      213: 8657549418036041704
+    second: sprite_sheet Killer Gossy_125
+  - first:
+      213: -2307501153317610181
+    second: sprite_sheet Killer Gossy_126
+  - first:
+      213: 4055549921157545599
+    second: sprite_sheet Killer Gossy_127
+  - first:
+      213: -8205443934415011136
+    second: sprite_sheet Killer Gossy_128
+  - first:
+      213: 6594650437407826112
+    second: sprite_sheet Killer Gossy_129
+  - first:
+      213: 7533092943352588336
+    second: sprite_sheet Killer Gossy_130
+  - first:
+      213: -386546314545800608
+    second: sprite_sheet Killer Gossy_131
+  - first:
+      213: -2469638714235298485
+    second: sprite_sheet Killer Gossy_132
+  - first:
+      213: -1598610904368912282
+    second: sprite_sheet Killer Gossy_133
+  - first:
+      213: 6339976056201307752
+    second: sprite_sheet Killer Gossy_134
+  - first:
+      213: -1736667428743464044
+    second: sprite_sheet Killer Gossy_135
+  - first:
+      213: 2669901531550392424
+    second: sprite_sheet Killer Gossy_136
+  - first:
+      213: -1795329274508227102
+    second: sprite_sheet Killer Gossy_137
+  - first:
+      213: -4339929704859015879
+    second: sprite_sheet Killer Gossy_138
+  - first:
+      213: -8908701918806175883
+    second: sprite_sheet Killer Gossy_139
+  - first:
+      213: 6007719190521597332
+    second: sprite_sheet Killer Gossy_140
+  - first:
+      213: -8247350392003821837
+    second: sprite_sheet Killer Gossy_141
+  - first:
+      213: -2754239051205225084
+    second: sprite_sheet Killer Gossy_142
+  - first:
+      213: -3383792297192704902
+    second: sprite_sheet Killer Gossy_143
+  - first:
+      213: -4400935709201256354
+    second: sprite_sheet Killer Gossy_144
+  - first:
+      213: -5443518380123110320
+    second: sprite_sheet Killer Gossy_145
+  - first:
+      213: 4636936848106879022
+    second: sprite_sheet Killer Gossy_146
+  - first:
+      213: -8308226008843972186
+    second: sprite_sheet Killer Gossy_147
+  - first:
+      213: 8299510309200809052
+    second: sprite_sheet Killer Gossy_148
+  - first:
+      213: 8256755241604727166
+    second: sprite_sheet Killer Gossy_149
+  - first:
+      213: 981552447115250761
+    second: sprite_sheet Killer Gossy_150
+  - first:
+      213: 5153161812992833322
+    second: sprite_sheet Killer Gossy_151
+  - first:
+      213: -1952633152425271496
+    second: sprite_sheet Killer Gossy_152
+  - first:
+      213: 295844709059510531
+    second: sprite_sheet Killer Gossy_153
+  - first:
+      213: -4522929691048701801
+    second: sprite_sheet Killer Gossy_154
+  - first:
+      213: -7409896104670260804
+    second: sprite_sheet Killer Gossy_155
+  - first:
+      213: -6389218990697271743
+    second: sprite_sheet Killer Gossy_156
+  - first:
+      213: -1766880736032646587
+    second: sprite_sheet Killer Gossy_157
+  - first:
+      213: 6905850517780902920
+    second: sprite_sheet Killer Gossy_158
+  - first:
+      213: 7193335354335479578
+    second: sprite_sheet Killer Gossy_159
+  - first:
+      213: -3842270153612189440
+    second: sprite_sheet Killer Gossy_160
+  - first:
+      213: 140566657836973257
+    second: sprite_sheet Killer Gossy_161
+  - first:
+      213: -8061348965274501637
+    second: sprite_sheet Killer Gossy_162
+  - first:
+      213: -2532609820843199286
+    second: sprite_sheet Killer Gossy_163
+  - first:
+      213: -5097249277488626993
+    second: sprite_sheet Killer Gossy_164
+  - first:
+      213: 1341846706108857555
+    second: sprite_sheet Killer Gossy_165
+  - first:
+      213: -4673788144632999973
+    second: sprite_sheet Killer Gossy_166
+  - first:
+      213: 4170127183924548544
+    second: sprite_sheet Killer Gossy_167
+  - first:
+      213: 7947571464690514325
+    second: sprite_sheet Killer Gossy_168
+  - first:
+      213: 6915170284245116896
+    second: sprite_sheet Killer Gossy_169
+  - first:
+      213: 7395607690862086069
+    second: sprite_sheet Killer Gossy_170
+  - first:
+      213: 8226073894412084348
+    second: sprite_sheet Killer Gossy_171
+  - first:
+      213: -5653760228899879536
+    second: sprite_sheet Killer Gossy_172
+  - first:
+      213: -6558013118526244719
+    second: sprite_sheet Killer Gossy_173
+  - first:
+      213: 8416552951567055584
+    second: sprite_sheet Killer Gossy_174
+  - first:
+      213: 6353757619724159245
+    second: sprite_sheet Killer Gossy_175
+  - first:
+      213: 5540488913863060341
+    second: sprite_sheet Killer Gossy_176
+  - first:
+      213: 7595815699450958204
+    second: sprite_sheet Killer Gossy_177
+  - first:
+      213: 2994853465934096726
+    second: sprite_sheet Killer Gossy_178
+  - first:
+      213: 3341401886183655224
+    second: sprite_sheet Killer Gossy_179
+  - first:
+      213: -6736940938607426822
+    second: sprite_sheet Killer Gossy_180
+  - first:
+      213: -881810062587957695
+    second: sprite_sheet Killer Gossy_181
+  - first:
+      213: -5140757895319178767
+    second: sprite_sheet Killer Gossy_182
+  - first:
+      213: -9078460477939576473
+    second: sprite_sheet Killer Gossy_183
+  - first:
+      213: -8486791284492179941
+    second: sprite_sheet Killer Gossy_184
+  - first:
+      213: -7229084006355353063
+    second: sprite_sheet Killer Gossy_185
+  - first:
+      213: 9129783715647686223
+    second: sprite_sheet Killer Gossy_186
+  - first:
+      213: -3870458983633388267
+    second: sprite_sheet Killer Gossy_187
+  - first:
+      213: -6615260342827075663
+    second: sprite_sheet Killer Gossy_188
+  - first:
+      213: -3337268101854280747
+    second: sprite_sheet Killer Gossy_189
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1125
+        width: 96
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0592d90212b82f870800000000000000
+      internalID: 8715181203312683344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1541
+        width: 74
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2078a82b77975460800000000000000
+      internalID: 7230414281985519658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_2
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1609
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67454bf77974c0790800000000000000
+      internalID: -7562590958253747082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1603
+        width: 91
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd653ede957d3d10800000000000000
+      internalID: 2106969525872586181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_4
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1599
+        width: 93
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e188e29b4ad003a0800000000000000
+      internalID: -6701116227405184539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1561
+        width: 84
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6786458572b72200800000000000000
+      internalID: 155288929984481135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1559
+        width: 84
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc7391a9538468b0800000000000000
+      internalID: -5159854852073620260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1556
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191cec739c3f248a0800000000000000
+      internalID: -6322222881324482159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1524
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802cdb1d42bb12140800000000000000
+      internalID: 4693238053508858376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1428
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b8ae1b86d37ca90800000000000000
+      internalID: -7293793551632397546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_10
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1428
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ced405825398a690800000000000000
+      internalID: -7590655189304680765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1428
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf90921492fefc370800000000000000
+      internalID: 8345151595006724603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_12
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1428
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795cf0aefe34663d0800000000000000
+      internalID: -3213806586379123305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_13
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1428
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beeb71e0b1bd78050800000000000000
+      internalID: 5802847554137210603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_14
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1428
+        width: 65
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f44b6e66d2df1e0800000000000000
+      internalID: -2162522326087479412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_15
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1393
+        width: 72
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883d2eb355f47cf50800000000000000
+      internalID: 6901572181464109960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1300
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5f8508b42529a50800000000000000
+      internalID: 6526369294242608606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1300
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48f2b9ccfb46cdb0800000000000000
+      internalID: -4772043206064670641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_18
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1300
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e56e3042bd7d150800000000000000
+      internalID: 5897423184795688546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1300
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79986f50a40833520800000000000000
+      internalID: 2680627258631555479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_20
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1300
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946bfd3c5589a94d0800000000000000
+      internalID: -3127019497129527735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_21
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1298
+        width: 65
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8686026f4b8c3ef70800000000000000
+      internalID: 9215429942079154280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_22
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1376
+        width: 76
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b18d30d128c9d60800000000000000
+      internalID: 7898330907631164227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_23
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1249
+        width: 66
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef57d0bb69da23ce0800000000000000
+      internalID: -1426887269028104706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_24
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1167
+        width: 72
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9667bdcabb80a9000800000000000000
+      internalID: 43356748565411433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_25
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1167
+        width: 74
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f27c1ba523eac890800000000000000
+      internalID: -7436882083724889360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_26
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1167
+        width: 78
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de3856614a5715b0800000000000000
+      internalID: -5397746391443816749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_27
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1167
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2767974e79731f150800000000000000
+      internalID: 5904561711972185714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1210
+        width: 90
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba24b43d4129a2c0800000000000000
+      internalID: -4419964943807010117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 995
+        width: 90
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a99b5fa7e2e43d0800000000000000
+      internalID: -3220585577879856517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_30
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1081
+        width: 92
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d351793b3751599c0800000000000000
+      internalID: -3921204313877703363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_31
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1038
+        width: 86
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f96823b6e52210800000000000000
+      internalID: 1307704923972564135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_32
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1038
+        width: 88
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c9eb2139cb5e680800000000000000
+      internalID: -8726361363099771801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_33
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1038
+        width: 88
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeecb5dd98280d500800000000000000
+      internalID: 418978293981368042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_34
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1038
+        width: 88
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8d93a75acd2d020800000000000000
+      internalID: 2365195357601257708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_35
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1030
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d1859edbc123aa0800000000000000
+      internalID: -6182847736437007030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_36
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 907
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0903fc85587e5b0800000000000000
+      internalID: -5339152216744750862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_37
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 907
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196ef520cef97a450800000000000000
+      internalID: 6100020056297563793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_38
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 907
+        width: 77
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c7fbbda5ad003a0800000000000000
+      internalID: -6701116161758626789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_39
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 907
+        width: 79
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f98ae7fa7e64f7d0800000000000000
+      internalID: -2885559986813236751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_40
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 951
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73ecf7aefbab1d10800000000000000
+      internalID: 2097459161699509118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 930
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a762058f337121e50800000000000000
+      internalID: 6778505901122791034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 930
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaf3acb96c56d7f0800000000000000
+      internalID: -588181092119086367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_43
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 930
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e14480000cb64ce0800000000000000
+      internalID: -1421241924194123291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_44
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 930
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cba88f445f121b20800000000000000
+      internalID: 3103577540183763907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 930
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fa515f5079b9290800000000000000
+      internalID: -7882540670939451566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_46
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 930
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91a30bd418918d20800000000000000
+      internalID: 3279069219043647902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 930
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d9298b2cd675ba0800000000000000
+      internalID: -6100286487162348168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 930
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc7959b01aabca40800000000000000
+      internalID: 5389588367884778710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_49
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 930
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fff0d68f388db50800000000000000
+      internalID: 6618184755425836842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 930
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4558925d19c8400800000000000000
+      internalID: 327797217601868973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_51
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 930
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a553551144083840800000000000000
+      internalID: 5203914047003776425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_52
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 930
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631822c43cc2bd2a0800000000000000
+      internalID: -6711721602358017738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_53
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 930
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6736cb16c69bc50800000000000000
+      internalID: 6681490689209104126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 930
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83612fe8726de75e0800000000000000
+      internalID: -1909853726568212936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_55
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 930
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d03e7a205345cbf0800000000000000
+      internalID: -304763388188282665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_56
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 930
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545f44b61165e7e70800000000000000
+      internalID: 9114817328658576709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_57
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 930
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88214d862d3712690800000000000000
+      internalID: -7628688946249854328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_58
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 930
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2c549b779678170800000000000000
+      internalID: 8180623211072176814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_59
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 928
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9356c66ec0f242e20800000000000000
+      internalID: 3324834157358245177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 928
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca8a23acbd9dd1a0800000000000000
+      internalID: -6783092030233212220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_61
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 930
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb3a153c24580fd0800000000000000
+      internalID: -2375556254591730766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_62
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 930
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d68b8a1033b3610800000000000000
+      internalID: 1601930174678986004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_63
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 916
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6477e4e9aaee5b860800000000000000
+      internalID: 7545199167296927558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_64
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 914
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c70a5e43220a5e0800000000000000
+      internalID: -1900481432164205474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 916
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325e9c20f1e230a20800000000000000
+      internalID: 3027314085248754979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_66
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 916
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6714b6a574ad98910800000000000000
+      internalID: 1840241922752070006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 916
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76eceef3f6543c80800000000000000
+      internalID: -8343948603656706434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_68
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 916
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c23cadd7443005f0800000000000000
+      internalID: -792576051150835002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_69
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 916
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec32be9a9c22400800000000000000
+      internalID: 298022256991522525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_70
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 916
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc459cd09cb9d3d0800000000000000
+      internalID: -3181304331398460161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_71
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 916
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f064e2367fd1b5d0800000000000000
+      internalID: -3048409774000152328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_72
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 916
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681c050cf9b71cd20800000000000000
+      internalID: 3297052328268448134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_73
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 916
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aef297b9b785e80800000000000000
+      internalID: -8189660014689916297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 916
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64741b1c65bc8c80800000000000000
+      internalID: -8319074935744727958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_75
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 902
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a19f7ec4b68f55c0800000000000000
+      internalID: -4224509814333533786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_76
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 900
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42022d625a552d2f0800000000000000
+      internalID: -949602403612483548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_77
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 902
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c8e586415eb7d10800000000000000
+      internalID: 2124543525048454178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_78
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 902
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83295ca9fd2801690800000000000000
+      internalID: -7633457471507033544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_79
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 900
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a767be2951862d820800000000000000
+      internalID: 2941527948494861946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_80
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 902
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6bb8b5bdc5850a0800000000000000
+      internalID: -6892657132487067961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_81
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 900
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96e22567c3ba4130800000000000000
+      internalID: 3551848925111707292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_82
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 902
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b004676c94836c190800000000000000
+      internalID: -7942599003307884533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_83
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 902
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e68a346734e4d20800000000000000
+      internalID: 3264620955110501929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_84
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 902
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c42c980a9456560800000000000000
+      internalID: 7306326924333304861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_85
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 902
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c133dbae5f0c32e00800000000000000
+      internalID: 1018870103153652508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 902
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd8a07daaaf09b20800000000000000
+      internalID: 3139284551936413143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_87
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 902
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0606db964e3131710800000000000000
+      internalID: 1662694559177334880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_88
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 902
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d492dbf4474cb70800000000000000
+      internalID: 8918381047925263684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_89
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 900
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df20f00db2518dc90800000000000000
+      internalID: -7144937530904870147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_90
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 902
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888c195eeef270780800000000000000
+      internalID: -8716945850652047224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_91
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 902
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c2d8ee1bf782e10800000000000000
+      internalID: 2173127222394432548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_92
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 902
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cd78aeb40832110800000000000000
+      internalID: 1234971786375322686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_93
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 902
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3140c2daaf71d7fc0800000000000000
+      internalID: -3495611370355031021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_94
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 900
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eaff4e08000fc590800000000000000
+      internalID: -7651897207279322393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_95
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 902
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03e7418bb001f8d0800000000000000
+      internalID: -2814467486801992950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_96
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 778
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70aca1e006cb0020800000000000000
+      internalID: 2309156941045997690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_97
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 778
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613d8d9fe1fb14560800000000000000
+      internalID: 7296323011078574870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_98
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 778
+        width: 79
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed44f06f336dd7460800000000000000
+      internalID: 7241179294541497566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 888
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90819f5df43420030800000000000000
+      internalID: 3459401473945311241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_100
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f201983e318d28930800000000000000
+      internalID: 4144112187067666479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_101
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 888
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0f0811451ff7360800000000000000
+      internalID: 7169714475170328759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0190c8d47a55f850800000000000000
+      internalID: 6410129102530973966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_103
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 888
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4dbd54d4045d960800000000000000
+      internalID: 7626072244650497245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_104
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 888
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45ddb599270c8a20800000000000000
+      internalID: 3065833321519764812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_105
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3984fad0439f685c0800000000000000
+      internalID: -4213406399395313517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_106
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd9de96f71434ee0800000000000000
+      internalID: -1278105853749256738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f92528c632167c0800000000000000
+      internalID: -4079940838471065855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_108
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671e7d4be6dcc6440800000000000000
+      internalID: 4930541567427993974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_109
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e884c7b59026133a0800000000000000
+      internalID: -6687456179339376498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_110
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80500540c680799e0800000000000000
+      internalID: -1614812681367190264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_111
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56464c6f062ca6240800000000000000
+      internalID: 4785851275747288165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_112
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 886
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8745a8f325e6a1eb0800000000000000
+      internalID: -4748361557576362888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_113
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 888
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a608a99a50f213f00800000000000000
+      internalID: 1094707885794558058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_114
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 888
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad400ac4b20d49b0800000000000000
+      internalID: -5094412627979776604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_115
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 888
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c37c1c20d432ca40800000000000000
+      internalID: 5386926172986438599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_116
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 888
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caa3004cd7ea4590800000000000000
+      internalID: -7689078480628897081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_117
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7251eab14b9e5bd10800000000000000
+      internalID: 2140874157652317479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_118
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 888
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22dc39d9db5b0140800000000000000
+      internalID: 4686940828419805740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_119
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 888
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb579ef64f666be0800000000000000
+      internalID: -1484376676462273585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_120
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 888
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70de0b4402a62360800000000000000
+      internalID: 7144575998192701565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_121
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 888
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51ddad88ef2b8af0800000000000000
+      internalID: -393167866608889507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_122
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 874
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d360471febb7ca0e0800000000000000
+      internalID: -2257293253194545603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_123
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 874
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a09733d0472ed440800000000000000
+      internalID: 4962446998783889576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_124
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 874
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5841186dac218e960800000000000000
+      internalID: 7631370230970782853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_125
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 647
+        width: 73
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e79d67735bc52870800000000000000
+      internalID: 8657549418036041704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_126
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 518
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d13bd3deb1affd0800000000000000
+      internalID: -2307501153317610181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_127
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 647
+        width: 75
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7e75738a25384830800000000000000
+      internalID: 4055549921157545599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_128
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 518
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c24fc84738602e80800000000000000
+      internalID: -8205443934415011136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_129
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 647
+        width: 77
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0619302a7e48b50800000000000000
+      internalID: 6594650437407826112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_130
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 518
+        width: 81
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0386884be1cea8860800000000000000
+      internalID: 7533092943352588336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_131
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 520
+        width: 93
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ad248cc26b2aaf0800000000000000
+      internalID: -386546314545800608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_132
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 647
+        width: 79
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dd3729ca41abdd0800000000000000
+      internalID: -2469638714235298485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_133
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 596
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668660f2ad790d9e0800000000000000
+      internalID: -1598610904368912282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_134
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 596
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8666c5ae1ae1cf750800000000000000
+      internalID: 6339976056201307752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_135
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 596
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b31c0cc2e16e7e0800000000000000
+      internalID: -1736667428743464044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_136
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 596
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86025551c456d0520800000000000000
+      internalID: 2669901531550392424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_137
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 594
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edc3127985b517e0800000000000000
+      internalID: -1795329274508227102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_138
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 591
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93566b76de875c3c0800000000000000
+      internalID: -4339929704859015879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_139
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f87bf1eceed5480800000000000000
+      internalID: -8908701918806175883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_140
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 555
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d465506c4bf5350800000000000000
+      internalID: 6007719190521597332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_141
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 557
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fefe6ac3868b8d80800000000000000
+      internalID: -8247350392003821837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_142
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 555
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485576eec2af6c9d0800000000000000
+      internalID: -2754239051205225084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_143
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 520
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74302475da5a01d0800000000000000
+      internalID: -3383792297192704902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_144
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 520
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e503ab52a4cbce2c0800000000000000
+      internalID: -4400935709201256354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_145
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 520
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054c370dfdcb474b0800000000000000
+      internalID: -5443518380123110320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_146
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 398
+        width: 74
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28745dee75b95040800000000000000
+      internalID: 4636936848106879022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_147
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 398
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1913db67043bc80800000000000000
+      internalID: -8308226008843972186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_148
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 398
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c4b9d47a8cd2370800000000000000
+      internalID: 8299510309200809052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_149
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 398
+        width: 74
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71c1356523e59270800000000000000
+      internalID: 8256755241604727166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_150
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 398
+        width: 78
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c48ba00cc2f9d00800000000000000
+      internalID: 981552447115250761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_151
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 277
+        width: 88
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27bb85cd55b38740800000000000000
+      internalID: 5153161812992833322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_152
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 277
+        width: 98
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f5a0d4e7ad6e4e0800000000000000
+      internalID: -1952633152425271496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_153
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 277
+        width: 106
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301cb28023d0b1400800000000000000
+      internalID: 295844709059510531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_154
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 277
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79099f4d8635b31c0800000000000000
+      internalID: -4522929691048701801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_155
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 277
+        width: 112
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1149a80c2ca2990800000000000000
+      internalID: -7409896104670260804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_156
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 164
+        width: 75
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e2f43fd2fe457a0800000000000000
+      internalID: -6389218990697271743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_157
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 148
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a1b48f457ca77e0800000000000000
+      internalID: -1766880736032646587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_158
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 147
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8043748057286df50800000000000000
+      internalID: 6905850517780902920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_159
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 147
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17cc61946cd3d360800000000000000
+      internalID: 7193335354335479578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_160
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 147
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0012cda07a38daac0800000000000000
+      internalID: -3842270153612189440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_161
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 259
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccf2ab61a463f100800000000000000
+      internalID: 140566657836973257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_162
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 259
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdb952b3d5502090800000000000000
+      internalID: -8061348965274501637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_163
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 158
+        width: 43
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4b9f949cc5adcd0800000000000000
+      internalID: -2532609820843199286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_164
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 246
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc28cabd9cee249b0800000000000000
+      internalID: -5097249277488626993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_165
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 246
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc75a448723f9210800000000000000
+      internalID: 1341846706108857555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_166
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfc7bbf17e532fb0800000000000000
+      internalID: -4673788144632999973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_167
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3d50a54944fd930800000000000000
+      internalID: 4170127183924548544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_168
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599b8eb93227b4e60800000000000000
+      internalID: 7947571464690514325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_169
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e764c14cbe97ff50800000000000000
+      internalID: 6915170284245116896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_170
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 94
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b74bffd20a72a660800000000000000
+      internalID: 7395607690862086069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_171
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 6
+        width: 92
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74eb849f92e82270800000000000000
+      internalID: 8226073894412084348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_172
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 90
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0950137d60fc981b0800000000000000
+      internalID: -5653760228899879536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_173
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 59
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19834e580d14df4a0800000000000000
+      internalID: -6558013118526244719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_174
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 54
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea7b6f015a9dc470800000000000000
+      internalID: 8416552951567055584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_175
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 51
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09079834e41d2850800000000000000
+      internalID: 6353757619724159245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_176
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b2cc8ff45c3ec40800000000000000
+      internalID: 5540488913863060341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_177
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 2
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c711c116222c96960800000000000000
+      internalID: 7595815699450958204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_178
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659695f1c5bdf8920800000000000000
+      internalID: 2994853465934096726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_179
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8370ccddf4b0f5e20800000000000000
+      internalID: 3341401886183655224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_180
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 2
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2848109e39182a0800000000000000
+      internalID: -6736940938607426822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_181
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 2
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e641c8b6e23c3f0800000000000000
+      internalID: -881810062587957695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_182
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 2
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1373d5eeb58a8b0800000000000000
+      internalID: -5140757895319178767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_183
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7611df88b44d20280800000000000000
+      internalID: -9078460477939576473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_184
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 2
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1666fcaa4cd83a80800000000000000
+      internalID: -8486791284492179941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_185
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9124bb5c5622dab90800000000000000
+      internalID: -7229084006355353063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_186
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46835feae183be70800000000000000
+      internalID: 9129783715647686223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_187
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 2
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dffca9f0e594ac0800000000000000
+      internalID: -3870458983633388267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_188
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7301174cfd134a0800000000000000
+      internalID: -6615260342827075663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_sheet Killer Gossy_189
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3cbbcc754afa1d0800000000000000
+      internalID: -3337268101854280747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprite_sheet Killer Gossy_0: 8715181203312683344
+      sprite_sheet Killer Gossy_1: 7230414281985519658
+      sprite_sheet Killer Gossy_10: -7590655189304680765
+      sprite_sheet Killer Gossy_100: 4144112187067666479
+      sprite_sheet Killer Gossy_101: 7169714475170328759
+      sprite_sheet Killer Gossy_102: 6410129102530973966
+      sprite_sheet Killer Gossy_103: 7626072244650497245
+      sprite_sheet Killer Gossy_104: 3065833321519764812
+      sprite_sheet Killer Gossy_105: -4213406399395313517
+      sprite_sheet Killer Gossy_106: -1278105853749256738
+      sprite_sheet Killer Gossy_107: -4079940838471065855
+      sprite_sheet Killer Gossy_108: 4930541567427993974
+      sprite_sheet Killer Gossy_109: -6687456179339376498
+      sprite_sheet Killer Gossy_11: 8345151595006724603
+      sprite_sheet Killer Gossy_110: -1614812681367190264
+      sprite_sheet Killer Gossy_111: 4785851275747288165
+      sprite_sheet Killer Gossy_112: -4748361557576362888
+      sprite_sheet Killer Gossy_113: 1094707885794558058
+      sprite_sheet Killer Gossy_114: -5094412627979776604
+      sprite_sheet Killer Gossy_115: 5386926172986438599
+      sprite_sheet Killer Gossy_116: -7689078480628897081
+      sprite_sheet Killer Gossy_117: 2140874157652317479
+      sprite_sheet Killer Gossy_118: 4686940828419805740
+      sprite_sheet Killer Gossy_119: -1484376676462273585
+      sprite_sheet Killer Gossy_12: -3213806586379123305
+      sprite_sheet Killer Gossy_120: 7144575998192701565
+      sprite_sheet Killer Gossy_121: -393167866608889507
+      sprite_sheet Killer Gossy_122: -2257293253194545603
+      sprite_sheet Killer Gossy_123: 4962446998783889576
+      sprite_sheet Killer Gossy_124: 7631370230970782853
+      sprite_sheet Killer Gossy_125: 8657549418036041704
+      sprite_sheet Killer Gossy_126: -2307501153317610181
+      sprite_sheet Killer Gossy_127: 4055549921157545599
+      sprite_sheet Killer Gossy_128: -8205443934415011136
+      sprite_sheet Killer Gossy_129: 6594650437407826112
+      sprite_sheet Killer Gossy_13: 5802847554137210603
+      sprite_sheet Killer Gossy_130: 7533092943352588336
+      sprite_sheet Killer Gossy_131: -386546314545800608
+      sprite_sheet Killer Gossy_132: -2469638714235298485
+      sprite_sheet Killer Gossy_133: -1598610904368912282
+      sprite_sheet Killer Gossy_134: 6339976056201307752
+      sprite_sheet Killer Gossy_135: -1736667428743464044
+      sprite_sheet Killer Gossy_136: 2669901531550392424
+      sprite_sheet Killer Gossy_137: -1795329274508227102
+      sprite_sheet Killer Gossy_138: -4339929704859015879
+      sprite_sheet Killer Gossy_139: -8908701918806175883
+      sprite_sheet Killer Gossy_14: -2162522326087479412
+      sprite_sheet Killer Gossy_140: 6007719190521597332
+      sprite_sheet Killer Gossy_141: -8247350392003821837
+      sprite_sheet Killer Gossy_142: -2754239051205225084
+      sprite_sheet Killer Gossy_143: -3383792297192704902
+      sprite_sheet Killer Gossy_144: -4400935709201256354
+      sprite_sheet Killer Gossy_145: -5443518380123110320
+      sprite_sheet Killer Gossy_146: 4636936848106879022
+      sprite_sheet Killer Gossy_147: -8308226008843972186
+      sprite_sheet Killer Gossy_148: 8299510309200809052
+      sprite_sheet Killer Gossy_149: 8256755241604727166
+      sprite_sheet Killer Gossy_15: 6901572181464109960
+      sprite_sheet Killer Gossy_150: 981552447115250761
+      sprite_sheet Killer Gossy_151: 5153161812992833322
+      sprite_sheet Killer Gossy_152: -1952633152425271496
+      sprite_sheet Killer Gossy_153: 295844709059510531
+      sprite_sheet Killer Gossy_154: -4522929691048701801
+      sprite_sheet Killer Gossy_155: -7409896104670260804
+      sprite_sheet Killer Gossy_156: -6389218990697271743
+      sprite_sheet Killer Gossy_157: -1766880736032646587
+      sprite_sheet Killer Gossy_158: 6905850517780902920
+      sprite_sheet Killer Gossy_159: 7193335354335479578
+      sprite_sheet Killer Gossy_16: 6526369294242608606
+      sprite_sheet Killer Gossy_160: -3842270153612189440
+      sprite_sheet Killer Gossy_161: 140566657836973257
+      sprite_sheet Killer Gossy_162: -8061348965274501637
+      sprite_sheet Killer Gossy_163: -2532609820843199286
+      sprite_sheet Killer Gossy_164: -5097249277488626993
+      sprite_sheet Killer Gossy_165: 1341846706108857555
+      sprite_sheet Killer Gossy_166: -4673788144632999973
+      sprite_sheet Killer Gossy_167: 4170127183924548544
+      sprite_sheet Killer Gossy_168: 7947571464690514325
+      sprite_sheet Killer Gossy_169: 6915170284245116896
+      sprite_sheet Killer Gossy_17: -4772043206064670641
+      sprite_sheet Killer Gossy_170: 7395607690862086069
+      sprite_sheet Killer Gossy_171: 8226073894412084348
+      sprite_sheet Killer Gossy_172: -5653760228899879536
+      sprite_sheet Killer Gossy_173: -6558013118526244719
+      sprite_sheet Killer Gossy_174: 8416552951567055584
+      sprite_sheet Killer Gossy_175: 6353757619724159245
+      sprite_sheet Killer Gossy_176: 5540488913863060341
+      sprite_sheet Killer Gossy_177: 7595815699450958204
+      sprite_sheet Killer Gossy_178: 2994853465934096726
+      sprite_sheet Killer Gossy_179: 3341401886183655224
+      sprite_sheet Killer Gossy_18: 5897423184795688546
+      sprite_sheet Killer Gossy_180: -6736940938607426822
+      sprite_sheet Killer Gossy_181: -881810062587957695
+      sprite_sheet Killer Gossy_182: -5140757895319178767
+      sprite_sheet Killer Gossy_183: -9078460477939576473
+      sprite_sheet Killer Gossy_184: -8486791284492179941
+      sprite_sheet Killer Gossy_185: -7229084006355353063
+      sprite_sheet Killer Gossy_186: 9129783715647686223
+      sprite_sheet Killer Gossy_187: -3870458983633388267
+      sprite_sheet Killer Gossy_188: -6615260342827075663
+      sprite_sheet Killer Gossy_189: -3337268101854280747
+      sprite_sheet Killer Gossy_19: 2680627258631555479
+      sprite_sheet Killer Gossy_2: -7562590958253747082
+      sprite_sheet Killer Gossy_20: -3127019497129527735
+      sprite_sheet Killer Gossy_21: 9215429942079154280
+      sprite_sheet Killer Gossy_22: 7898330907631164227
+      sprite_sheet Killer Gossy_23: -1426887269028104706
+      sprite_sheet Killer Gossy_24: 43356748565411433
+      sprite_sheet Killer Gossy_25: -7436882083724889360
+      sprite_sheet Killer Gossy_26: -5397746391443816749
+      sprite_sheet Killer Gossy_27: 5904561711972185714
+      sprite_sheet Killer Gossy_28: -4419964943807010117
+      sprite_sheet Killer Gossy_29: -3220585577879856517
+      sprite_sheet Killer Gossy_3: 2106969525872586181
+      sprite_sheet Killer Gossy_30: -3921204313877703363
+      sprite_sheet Killer Gossy_31: 1307704923972564135
+      sprite_sheet Killer Gossy_32: -8726361363099771801
+      sprite_sheet Killer Gossy_33: 418978293981368042
+      sprite_sheet Killer Gossy_34: 2365195357601257708
+      sprite_sheet Killer Gossy_35: -6182847736437007030
+      sprite_sheet Killer Gossy_36: -5339152216744750862
+      sprite_sheet Killer Gossy_37: 6100020056297563793
+      sprite_sheet Killer Gossy_38: -6701116161758626789
+      sprite_sheet Killer Gossy_39: -2885559986813236751
+      sprite_sheet Killer Gossy_4: -6701116227405184539
+      sprite_sheet Killer Gossy_40: 2097459161699509118
+      sprite_sheet Killer Gossy_41: 6778505901122791034
+      sprite_sheet Killer Gossy_42: -588181092119086367
+      sprite_sheet Killer Gossy_43: -1421241924194123291
+      sprite_sheet Killer Gossy_44: 3103577540183763907
+      sprite_sheet Killer Gossy_45: -7882540670939451566
+      sprite_sheet Killer Gossy_46: 3279069219043647902
+      sprite_sheet Killer Gossy_47: -6100286487162348168
+      sprite_sheet Killer Gossy_48: 5389588367884778710
+      sprite_sheet Killer Gossy_49: 6618184755425836842
+      sprite_sheet Killer Gossy_5: 155288929984481135
+      sprite_sheet Killer Gossy_50: 327797217601868973
+      sprite_sheet Killer Gossy_51: 5203914047003776425
+      sprite_sheet Killer Gossy_52: -6711721602358017738
+      sprite_sheet Killer Gossy_53: 6681490689209104126
+      sprite_sheet Killer Gossy_54: -1909853726568212936
+      sprite_sheet Killer Gossy_55: -304763388188282665
+      sprite_sheet Killer Gossy_56: 9114817328658576709
+      sprite_sheet Killer Gossy_57: -7628688946249854328
+      sprite_sheet Killer Gossy_58: 8180623211072176814
+      sprite_sheet Killer Gossy_59: 3324834157358245177
+      sprite_sheet Killer Gossy_6: -5159854852073620260
+      sprite_sheet Killer Gossy_60: -6783092030233212220
+      sprite_sheet Killer Gossy_61: -2375556254591730766
+      sprite_sheet Killer Gossy_62: 1601930174678986004
+      sprite_sheet Killer Gossy_63: 7545199167296927558
+      sprite_sheet Killer Gossy_64: -1900481432164205474
+      sprite_sheet Killer Gossy_65: 3027314085248754979
+      sprite_sheet Killer Gossy_66: 1840241922752070006
+      sprite_sheet Killer Gossy_67: -8343948603656706434
+      sprite_sheet Killer Gossy_68: -792576051150835002
+      sprite_sheet Killer Gossy_69: 298022256991522525
+      sprite_sheet Killer Gossy_7: -6322222881324482159
+      sprite_sheet Killer Gossy_70: -3181304331398460161
+      sprite_sheet Killer Gossy_71: -3048409774000152328
+      sprite_sheet Killer Gossy_72: 3297052328268448134
+      sprite_sheet Killer Gossy_73: -8189660014689916297
+      sprite_sheet Killer Gossy_74: -8319074935744727958
+      sprite_sheet Killer Gossy_75: -4224509814333533786
+      sprite_sheet Killer Gossy_76: -949602403612483548
+      sprite_sheet Killer Gossy_77: 2124543525048454178
+      sprite_sheet Killer Gossy_78: -7633457471507033544
+      sprite_sheet Killer Gossy_79: 2941527948494861946
+      sprite_sheet Killer Gossy_8: 4693238053508858376
+      sprite_sheet Killer Gossy_80: -6892657132487067961
+      sprite_sheet Killer Gossy_81: 3551848925111707292
+      sprite_sheet Killer Gossy_82: -7942599003307884533
+      sprite_sheet Killer Gossy_83: 3264620955110501929
+      sprite_sheet Killer Gossy_84: 7306326924333304861
+      sprite_sheet Killer Gossy_85: 1018870103153652508
+      sprite_sheet Killer Gossy_86: 3139284551936413143
+      sprite_sheet Killer Gossy_87: 1662694559177334880
+      sprite_sheet Killer Gossy_88: 8918381047925263684
+      sprite_sheet Killer Gossy_89: -7144937530904870147
+      sprite_sheet Killer Gossy_9: -7293793551632397546
+      sprite_sheet Killer Gossy_90: -8716945850652047224
+      sprite_sheet Killer Gossy_91: 2173127222394432548
+      sprite_sheet Killer Gossy_92: 1234971786375322686
+      sprite_sheet Killer Gossy_93: -3495611370355031021
+      sprite_sheet Killer Gossy_94: -7651897207279322393
+      sprite_sheet Killer Gossy_95: -2814467486801992950
+      sprite_sheet Killer Gossy_96: 2309156941045997690
+      sprite_sheet Killer Gossy_97: 7296323011078574870
+      sprite_sheet Killer Gossy_98: 7241179294541497566
+      sprite_sheet Killer Gossy_99: 3459401473945311241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
