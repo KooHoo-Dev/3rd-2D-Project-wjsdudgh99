@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     private bool isGameOver = false;
     public bool IsBossStage { get; private set; } = false; // 보스 스테이지 여부 (기본값 false)
     private bool IsGameStarted = false;
+    public int DeadEnemyCount = 0;
 
     [Header("Cached References")]
     public GameObject EnemySpawner;   // 꺼버릴 일반 적 스포너 오브젝트

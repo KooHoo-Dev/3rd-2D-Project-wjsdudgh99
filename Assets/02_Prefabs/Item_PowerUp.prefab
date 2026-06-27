@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6586503254221377403}
   - component: {fileID: 6211428875363098058}
   - component: {fileID: 7724412907031433366}
+  - component: {fileID: -5847817778545569976}
   m_Layer: 0
   m_Name: Item_PowerUp
   m_TagString: Item
@@ -138,3 +139,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.16, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &-5847817778545569976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2295233444576014116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b373cf2e3f1e4d419a3dc56e3df7bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemMovement

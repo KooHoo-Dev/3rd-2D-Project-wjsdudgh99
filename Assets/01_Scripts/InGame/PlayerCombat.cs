@@ -89,28 +89,6 @@ public class PlayerCombat : MonoBehaviour
     // 3. 충돌 처리 (장애물이나 적 비행기와 부딪혔을 때)
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        //if ((isColliding == false) && (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy")))
-        //{
-        //    isColliding = true;
-        //    StartCoroutine(CollisionEffect());
-
-        //    PlayerHp -= 1;
-
-        //    if (IsDead == true)
-        //    {
-        //        return;
-        //    }
-
-        //    if (PlayerHp <= 0)
-        //    {
-        //        IsDead = true;
-
-        //        GameManager.Instance.TriggerGameOver();
-
-        //        Destroy(gameObject);
-        //    }
-        //}
-
         if (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy"))
         {
             if (IsDead == true)
@@ -148,10 +126,11 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        //if (GameManager.Instance.PlayerHP <= 0)
+        //if (CompareTag = Item)
         //{
-        //    GameManager.Instance.TriggerGameOver();
+        //    WeaponLevel += 1;
         //}
+        
     }
 
     // 4. 피격 시 무적/깜빡임 연출 코루틴

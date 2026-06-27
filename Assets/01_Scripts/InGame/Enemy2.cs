@@ -20,6 +20,10 @@ public class Enemy2 : MonoBehaviour
     private Vector3 targetPosition;
     public float PatrolRange = 1.5f;
 
+    public GameObject PowerUpItemPrefab;
+    
+
+
     // [추가] 처음 출발할 방향을 결정하기 위한 변수 (true면 오른쪽 우선, false면 왼쪽 우선)
     private bool isHeadingRightFirst = true;
 
@@ -134,12 +138,6 @@ public class Enemy2 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (Hp <= 0)
-        {
-            GameManager.Instance.AddScore(300); // 맷집 강한 엘리트 적 격추 시 300점 추가
-            Destroy(gameObject);
-        }
-
         if (collider.gameObject.CompareTag("PlayerBullet"))
         {
             Destroy(collider.gameObject);
@@ -147,6 +145,19 @@ public class Enemy2 : MonoBehaviour
 
             if (Hp <= 0)
             {
+                GameManager.Instance.AddScore(300); // 맷집 강한 엘리트 적 격추 시 300점 추가
+
+                GameManager.Instance.DeadEnemyCount++;
+
+                float dice = Random.Range(0f, 100f);
+
+                if (dice <= 15f || GameManager.Instance.DeadEnemyCount >= 7)
+                {
+                    Instantiate(PowerUpItemPrefab, transform.position, Quaternion.identity);
+
+                    GameManager.Instance.DeadEnemyCount = 0;
+                }
+
                 Destroy(gameObject);
             }
         }
