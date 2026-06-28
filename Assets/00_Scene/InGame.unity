@@ -1364,6 +1364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   MainMenu: MainMenu
   SurviveTime: 60
+  DeadEnemyCount: 0
   EnemySpawner: {fileID: 875832421}
   BossPrefab: {fileID: 3522576866805546797, guid: 81c446e4ed4b5164996dad0154b1d056, type: 3}
   TimerText: {fileID: 164562737}
@@ -1372,7 +1373,7 @@ MonoBehaviour:
   LifeCountText: {fileID: 359802035}
   GameOverCanvas: {fileID: 1759712472}
   VictoryCanvas: {fileID: 1040012225}
-  GameOverMainMenuButton: {fileID: 543190645}
+  GameOverMainMenuButton: {fileID: 455709291}
   VictoryMainMenuButton: {fileID: 1878950979}
   GameOverRetryButton: {fileID: 543190645}
   VictoryRetryButton: {fileID: 1214034380}
@@ -2402,7 +2403,8 @@ MonoBehaviour:
   BulletPrefab: {fileID: 4137613454080935494, guid: ea3474ab6a8168c41b28826e74f1b11a, type: 3}
   FireRate: 0.2
   PlayerHp: 5
-  IsDead: 0
+  IsDead: 1
+  WeaponLevel: 1
 --- !u!1 &1878950977
 GameObject:
   m_ObjectHideFlags: 0

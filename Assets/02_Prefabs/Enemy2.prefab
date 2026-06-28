@@ -151,8 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 821834c3aebf20344be866439bc64511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy2
-  Hp: 6
+  Hp: 8
   Speed: 3
   EnemyBulletPrefab: {fileID: 5444016428913447407, guid: 7d69d1562c2edfd438f32263bdfa4902, type: 3}
   FireRate: 2.5
   PatrolRange: 1.5
+  PowerUpItemPrefab: {fileID: 2295233444576014116, guid: 1be4a3d5d6102b24eb17d360d8b971f3, type: 3}

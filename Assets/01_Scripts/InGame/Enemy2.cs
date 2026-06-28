@@ -151,7 +151,7 @@ public class Enemy2 : MonoBehaviour
 
                 float dice = Random.Range(0f, 100f);
 
-                if (dice <= 15f || GameManager.Instance.DeadEnemyCount >= 7)
+                if (dice <= 5f || GameManager.Instance.DeadEnemyCount >= 15)
                 {
                     Instantiate(PowerUpItemPrefab, transform.position, Quaternion.identity);
 

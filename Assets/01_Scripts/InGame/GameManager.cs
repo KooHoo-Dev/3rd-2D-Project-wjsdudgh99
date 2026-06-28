@@ -74,7 +74,6 @@ public class GameManager : MonoBehaviour
         StartCoroutine(CountdownRoutine());
     }
 
-
     void Update()
     {
         if (isGameOver) return;

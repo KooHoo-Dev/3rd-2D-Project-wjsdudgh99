@@ -20,6 +20,8 @@ public class PlayerCombat : MonoBehaviour
 
     public bool IsDead = false;
 
+    public int WeaponLevel = 1;
+
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -75,7 +77,25 @@ public class PlayerCombat : MonoBehaviour
                 if (BulletPrefab != null)
                 {
                     // 플레이어의 현재 위치에 총알 생성 및 발사 시간 기록
-                    Instantiate(BulletPrefab, transform.position, Quaternion.identity);
+
+                    if (WeaponLevel == 1)
+                    {
+                        Instantiate(BulletPrefab, transform.position, Quaternion.identity);
+                    }
+
+                    else if (WeaponLevel == 2)
+                    {
+                        Instantiate(BulletPrefab, transform.position + new Vector3(-0.2f, 0f, 0f), Quaternion.identity);
+                        Instantiate(BulletPrefab, transform.position + new Vector3(0.2f, 0f, 0f), Quaternion.identity);
+                    }
+
+                    else if (WeaponLevel == 3)
+                    {
+                        Instantiate(BulletPrefab, transform.position, Quaternion.identity);
+                        Instantiate(BulletPrefab, transform.position + new Vector3(-0.3f, 0f, 0f), Quaternion.identity);
+                        Instantiate(BulletPrefab, transform.position + new Vector3(0.3f, 0f, 0f), Quaternion.identity);
+                    }
+
                     lastFireTime = Time.time;
                 }
                 else
@@ -126,11 +146,17 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        //if (CompareTag = Item)
-        //{
-        //    WeaponLevel += 1;
-        //}
-        
+        if (collider.gameObject.CompareTag("Item"))
+        {
+            WeaponLevel += 1;
+
+            Destroy(collider.gameObject);
+
+            if (WeaponLevel > 3)
+            {
+                WeaponLevel = 3;
+            }
+        }
     }
 
     // 4. 피격 시 무적/깜빡임 연출 코루틴
