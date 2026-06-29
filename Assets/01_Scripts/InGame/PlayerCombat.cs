@@ -85,15 +85,15 @@ public class PlayerCombat : MonoBehaviour
 
                     else if (WeaponLevel == 2)
                     {
-                        Instantiate(BulletPrefab, transform.position + new Vector3(-0.2f, 0f, 0f), Quaternion.identity);
-                        Instantiate(BulletPrefab, transform.position + new Vector3(0.2f, 0f, 0f), Quaternion.identity);
+                        Instantiate(BulletPrefab, transform.position + new Vector3(-0.1f, 0f, 0f), Quaternion.identity);
+                        Instantiate(BulletPrefab, transform.position + new Vector3(0.1f, 0f, 0f), Quaternion.identity);
                     }
 
                     else if (WeaponLevel == 3)
                     {
                         Instantiate(BulletPrefab, transform.position, Quaternion.identity);
-                        Instantiate(BulletPrefab, transform.position + new Vector3(-0.3f, 0f, 0f), Quaternion.identity);
-                        Instantiate(BulletPrefab, transform.position + new Vector3(0.3f, 0f, 0f), Quaternion.identity);
+                        Instantiate(BulletPrefab, transform.position + new Vector3(-0.2f, 0f, 0f), Quaternion.identity);
+                        Instantiate(BulletPrefab, transform.position + new Vector3(0.2f, 0f, 0f), Quaternion.identity);
                     }
 
                     lastFireTime = Time.time;
@@ -162,14 +162,14 @@ public class PlayerCombat : MonoBehaviour
         {
             PlayerHp += 1;
 
-            Destroy(collider.gameObject);
-
-            GameManager.Instance.UpdateLife(PlayerHp);
-
             if (PlayerHp > 5)
             {
                 PlayerHp = 5;
             }
+
+            Destroy(collider.gameObject);
+
+            GameManager.Instance.UpdateLife(PlayerHp);
         }
     }
 

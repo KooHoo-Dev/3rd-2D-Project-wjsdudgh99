@@ -27,12 +27,12 @@ public class EnemySpawner : MonoBehaviour
             if (randomEnemy == 0 && Enemy1Prefab != null)
             {
                 // 50% 확률로 일반 적 스폰
-                Instantiate(Enemy1Prefab, spawnPosition, Quaternion.identity);
+                Instantiate(Enemy1Prefab, spawnPosition, Quaternion.Euler(0f, 0f, 180f));
             }
             else if (randomEnemy == 1 && Enemy2Prefab != null)
             {
                 // 50% 확률로 3갈래 적 스폰
-                Instantiate(Enemy2Prefab, spawnPosition, Quaternion.identity);
+                Instantiate(Enemy2Prefab, spawnPosition, Quaternion.Euler(0f, 0f, 180f));
             }
 
             lastSpawnTime = Time.time;
