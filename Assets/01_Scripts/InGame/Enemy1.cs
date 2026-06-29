@@ -5,6 +5,8 @@ public class NormalEnemy : MonoBehaviour
     // public 필드는 PascalCase 준수
     public float Speed = 3.0f;
 
+    public GameObject HpUpItemPrefab;
+
     void Update()
     {
         // 매 프레임 아래(-Y 방향)로 일직선 이동
@@ -22,12 +24,19 @@ public class NormalEnemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        // 플레이어 총알(기존에 만든 프리팹)과 부딪혔을 때
         if (collider.gameObject.CompareTag("PlayerBullet"))
         {
-            // [추후 구현 힌트]: 여기에 폭발 파티클 생성이나 점수 추가 로직이 들어갑니다.
-
             GameManager.Instance.AddScore(100); // 일반 적 격추 시 100점 추가
+
+            float dice2 = Random.Range(0f, 100f);
+
+            if (dice2 <= 5f || GameManager.Instance.DeadEnemyCount >= 10)
+            {
+                Instantiate(HpUpItemPrefab, transform.position, Quaternion.identity);
+
+                GameManager.Instance.DeadEnemyCount = 0;
+            }
+
             Destroy(gameObject); // 적 비행기 파괴
 
             // 플레이어 총알 스크립트에서도 Destroy를 해주지만, 

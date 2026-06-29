@@ -157,6 +157,20 @@ public class PlayerCombat : MonoBehaviour
                 WeaponLevel = 3;
             }
         }
+
+        if (collider.gameObject.CompareTag("HpItem"))
+        {
+            PlayerHp += 1;
+
+            Destroy(collider.gameObject);
+
+            GameManager.Instance.UpdateLife(PlayerHp);
+
+            if (PlayerHp > 5)
+            {
+                PlayerHp = 5;
+            }
+        }
     }
 
     // 4. 피격 시 무적/깜빡임 연출 코루틴

@@ -8,6 +8,7 @@ TagManager:
   - PlayerBullet
   - Obstacle
   - Item
+  - HpItem
   layers:
   - Default
   - TransparentFX
