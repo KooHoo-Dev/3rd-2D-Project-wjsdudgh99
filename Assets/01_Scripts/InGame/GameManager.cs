@@ -105,7 +105,7 @@ public class GameManager : MonoBehaviour
     {
         if (LifeCountText != null)
         {
-            LifeCountText.text = currentLife.ToString("♥ : " + currentLife);
+            LifeCountText.text = currentLife.ToString("  : " + currentLife);
         }
     }
 
