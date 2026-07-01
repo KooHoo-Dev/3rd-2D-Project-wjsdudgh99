@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 343802476814702038}
   - component: {fileID: 5913369846308013427}
   - component: {fileID: 2941362080946302094}
+  - component: {fileID: -3640017573916256653}
   - component: {fileID: 8130059608554261719}
+  - component: {fileID: 5205714004988503423}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Enemy
@@ -32,7 +34,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4899718353959524496}
+  - {fileID: 7091153801650617283}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5913369846308013427
@@ -110,7 +112,21 @@ MonoBehaviour:
   Speed: 1.5
   BossMissilePrefab: {fileID: 3037194538079990489, guid: cc4915b1070b4504da2018356829f7f5, type: 3}
   BossBulletPrefab: {fileID: 6972785404093641410, guid: f348018614b172c4883fcaa71a025502, type: 3}
-  FireRate: 0.7
+  LaserBeamObject: {fileID: 5403456595034284755}
+  FireRate: 1
+  FirePoint: {fileID: 7091153801650617283}
+--- !u!114 &-3640017573916256653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522576866805546797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7e6471be1b2d7541896a0921c16508c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAnimation
 --- !u!61 &8130059608554261719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -157,7 +173,29 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8828125, y: 1}
   m_EdgeRadius: 0
---- !u!1 &6739310570798428040
+--- !u!95 &5205714004988503423
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3522576866805546797}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 09a1607afa8985d479ccf213042e3e0f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &5403456595034284755
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,9 +203,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4899718353959524496}
-  - component: {fileID: 5178099033054481328}
-  - component: {fileID: 8213496414582910412}
+  - component: {fileID: 502786704726392793}
+  - component: {fileID: 8594509740631318272}
+  - component: {fileID: 6801991265207584279}
   m_Layer: 0
   m_Name: LaserBeam
   m_TagString: BossLaser
@@ -175,29 +213,29 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &4899718353959524496
+--- !u!4 &502786704726392793
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6739310570798428040}
+  m_GameObject: {fileID: 5403456595034284755}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.1, z: 0}
-  m_LocalScale: {x: 0.5, y: 7, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 343802476814702038}
+  m_Father: {fileID: 7091153801650617283}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!120 &5178099033054481328
+--- !u!120 &8594509740631318272
 LineRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6739310570798428040}
+  m_GameObject: {fileID: 5403456595034284755}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -250,7 +288,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.50313056
+        value: 0.19753075
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -300,13 +338,13 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
---- !u!61 &8213496414582910412
+--- !u!61 &6801991265207584279
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6739310570798428040}
+  m_GameObject: {fileID: 5403456595034284755}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -334,7 +372,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -346,3 +384,35 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &7506815453773541537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7091153801650617283}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7091153801650617283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7506815453773541537}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 502786704726392793}
+  m_Father: {fileID: 343802476814702038}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -11,16 +11,18 @@ public class Boss : MonoBehaviour
     //public GameObject EnemyBulletPrefab; // 일반 3갈래 적 총알 프리팹
     public GameObject BossMissilePrefab; // 보스 전용 대형 미사일 프리팹
     public GameObject BossBulletPrefab;
-    //public GameObject LazerBeamObject;
+    public GameObject LaserBeamObject;
 
     [Header("Attack Settings")]
     public float FireRate = 1.5f;        // 공격 주기 (1.5초마다 무기 번갈아 발사)
     private float lastFireTime = 0f;
-    private bool toggleWeapon = false;   // 두 가지 무기를 번갈아 쏘기 위한 스위치
 
     [Header("Movement Settings")]
     private float targetY = 3.5f;        // 화면 상단에 알박기할 목적지 Y 좌표
     private bool isArrived = false;
+
+    [Header("BossFirePoint")]
+    public Transform FirePoint;
 
     // 보스는 맵 중앙(X=0)에서 넓게 왕복하도록 한계점을 -2.0에서 +2.0으로 고정합니다.
     private float leftX = -2.0f;
@@ -28,11 +30,15 @@ public class Boss : MonoBehaviour
     private Vector3 targetPosition;
 
     private int attackPattern = 0;
+    private int patternRepeatCount = 0;
+    private BossAnimation bossAnim;
 
     void Start()
     {
         // 처음 등장 시 일단 현재 위치(중앙 상단)를 목표 지점으로 설정
         targetPosition = transform.position;
+
+        bossAnim = GetComponent<BossAnimation>();
     }
 
     void Update()
@@ -62,7 +68,7 @@ public class Boss : MonoBehaviour
         if (isArrived && Time.time >= lastFireTime + FireRate)
         {
             FireBossWeapon();
-            lastFireTime = Time.time;
+            //lastFireTime = Time.time; 
         }
     }
 
@@ -93,6 +99,8 @@ public class Boss : MonoBehaviour
 
     private IEnumerator BurstShotPattern()
     {
+        bossAnim.BossBulletAnim(true);
+
         for (int i = 0; i < 3; ++i)
         {
             if (BossBulletPrefab != null)
@@ -103,19 +111,23 @@ public class Boss : MonoBehaviour
                 Quaternion SevenOClockRot = Quaternion.Euler(0, 0, 165f);
                 Quaternion EightOClockRot = Quaternion.Euler(0, 0, 150f);
 
-                Instantiate(BossBulletPrefab, transform.position, FourOClockRot);
-                Instantiate(BossBulletPrefab, transform.position, FiveOClockRot);
-                Instantiate(BossBulletPrefab, transform.position, SixOClockRot);
-                Instantiate(BossBulletPrefab, transform.position, SevenOClockRot);
-                Instantiate(BossBulletPrefab, transform.position, EightOClockRot);
+                Instantiate(BossBulletPrefab, FirePoint.position, FourOClockRot);
+                Instantiate(BossBulletPrefab, FirePoint.position, FiveOClockRot);
+                Instantiate(BossBulletPrefab, FirePoint.position, SixOClockRot);
+                Instantiate(BossBulletPrefab, FirePoint.position, SevenOClockRot);
+                Instantiate(BossBulletPrefab, FirePoint.position, EightOClockRot);
             }
 
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.2f);
         }
+
+        bossAnim.BossBulletAnim(false);
     }
 
     private IEnumerator ClockwiseShotPattern()
     {
+        bossAnim.BossBulletAnim(true);
+
         float currentAngle = 135f;
 
         for (int i = 0; i < 10; ++i)
@@ -124,17 +136,21 @@ public class Boss : MonoBehaviour
             {
                 Quaternion rot = Quaternion.Euler(0, 0, currentAngle);
 
-                Instantiate(BossBulletPrefab, transform.position, rot);
+                Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
             currentAngle += 15;
 
             yield return new WaitForSeconds(0.1f);
         }
+
+        bossAnim.BossBulletAnim(false);
     }
 
     private IEnumerator CounterClockwiseShotPattern()
     {
+        bossAnim.BossBulletAnim(true);
+
         float currentAngle = 225f;
 
         for (int i = 0; i < 10; ++i)
@@ -143,19 +159,41 @@ public class Boss : MonoBehaviour
             {
                 Quaternion rot = Quaternion.Euler(0, 0, currentAngle);
 
-                Instantiate(BossBulletPrefab, transform.position, rot);
+                Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
             currentAngle -= 15;
 
             yield return new WaitForSeconds(0.1f);
         }
+
+        bossAnim.BossBulletAnim(false);
+    }
+
+    private IEnumerator LaserBeamPattern()
+    {
+        bossAnim.BossLaserAnim(true);
+
+        yield return new WaitForSeconds(0.5f);
+
+        if (LaserBeamObject != null)
+        {
+            LaserBeamObject.SetActive(true);
+        }
+
+        yield return new WaitForSeconds(0.5f);
+
+        if (LaserBeamObject != null)
+        {
+            LaserBeamObject.SetActive(false);
+        }
+
+        bossAnim.BossLaserAnim(false);
     }
 
     // 보스의 하이브리드 공격 패턴 로직
     void FireBossWeapon()
     {
-        // 스위치(toggleWeapon)를 이용해 3갈래 탄막과 대형 미사일 난사를 번갈아 실행합니다.
         if (attackPattern == 0)
         {
             StartCoroutine(BurstShotPattern());
@@ -170,18 +208,33 @@ public class Boss : MonoBehaviour
         }
         else if (attackPattern == 3)
         {
+            StartCoroutine(LaserBeamPattern());
             // 패턴 B: 보스 전용 미사일 일직선 하방 발사! (살짝 벌려진 2개 열로 뿜어내기)
-            if (BossMissilePrefab != null)
-            {
-                Quaternion downRot = Quaternion.Euler(0, 0, 180f);
-                Vector3 leftWing = transform.position + new Vector3(-0.5f, -0.5f, 0f);
-                Vector3 rightWing = transform.position + new Vector3(0.5f, -0.5f, 0f);
+            //if (BossMissilePrefab != null)
+            //{
+            //    Quaternion downRot = Quaternion.Euler(0, 0, 180f);
+            //    Vector3 leftWing = transform.position + new Vector3(-0.5f, -0.5f, 0f);
+            //    Vector3 rightWing = transform.position + new Vector3(0.5f, -0.5f, 0f);
 
-                Instantiate(BossMissilePrefab, leftWing, downRot);
-                Instantiate(BossMissilePrefab, rightWing, downRot);
-            }
+            //    Instantiate(BossMissilePrefab, leftWing, downRot);
+            //    Instantiate(BossMissilePrefab, rightWing, downRot);
+            //}
         }
-        attackPattern = (attackPattern + 1) % 3;
+        patternRepeatCount += 1;
+
+        if (patternRepeatCount == 3)
+        {
+            patternRepeatCount = 0;
+
+            attackPattern = Random.Range(0, 4);
+
+            lastFireTime = Time.time + 0.5f;
+        }
+
+        else
+        {
+            lastFireTime = Time.time;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collider)

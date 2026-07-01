@@ -1,16 +1,22 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BossAnimation : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Animator anim;
+
     void Start()
     {
-        
+       anim = GetComponent<Animator>(); 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void BossBulletAnim(bool isTrue)
     {
-        
+        anim.SetBool("isShooting", isTrue);
+    }
+
+    public void BossLaserAnim(bool isTrue)
+    {
+        anim.SetBool("isLasing", isTrue);
     }
 }
