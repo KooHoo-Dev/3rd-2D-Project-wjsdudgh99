@@ -1479,7 +1479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   MainMenu: MainMenu
-  SurviveTime: 60
+  SurviveTime: 5
   DeadEnemyCount: 0
   EnemySpawner: {fileID: 875832421}
   BossPrefab: {fileID: 3522576866805546797, guid: 81c446e4ed4b5164996dad0154b1d056, type: 3}
@@ -1942,7 +1942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cfbc0b0e56d34641899ea46e2696624, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundScroller
-  speed: 0.35
+  speed: 0.3
   direction: 3
   layerPrefabs: []
   startLayer: {fileID: 784853051}

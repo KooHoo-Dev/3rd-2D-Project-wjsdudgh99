@@ -12,19 +12,21 @@ public class PlayerAnimation : MonoBehaviour
 
     void Update()
     {
+        int horizontal = 0;
+
         if (Keyboard.current.leftArrowKey.isPressed)
         {
-            anim.SetInteger("Direction", -1);
+            horizontal -= 1;
         }
 
-        else if (Keyboard.current.rightArrowKey.isPressed)
+        if (Keyboard.current.rightArrowKey.isPressed)
         {
-            anim.SetInteger("Direction", 1);
+            horizontal += 1;
         }
 
-        else
+        if (anim.GetInteger("Direction") != horizontal)
         {
-            anim.SetInteger("Direction", 0);
+            anim.SetInteger("Direction", horizontal);
         }
     }
 }
