@@ -8,8 +8,10 @@ public class Boss : MonoBehaviour
     public float Speed = 1.5f;           // 기획서 반영: 대형기 특유의 느릿하고 묵직한 속도
 
     [Header("Prefabs")]
-    public GameObject EnemyBulletPrefab; // 일반 3갈래 적 총알 프리팹
+    //public GameObject EnemyBulletPrefab; // 일반 3갈래 적 총알 프리팹
     public GameObject BossMissilePrefab; // 보스 전용 대형 미사일 프리팹
+    public GameObject BossBulletPrefab;
+    //public GameObject LazerBeamObject;
 
     [Header("Attack Settings")]
     public float FireRate = 1.5f;        // 공격 주기 (1.5초마다 무기 번갈아 발사)
@@ -24,6 +26,8 @@ public class Boss : MonoBehaviour
     private float leftX = -2.0f;
     private float rightX = 2.0f;
     private Vector3 targetPosition;
+
+    private int attackPattern = 0;
 
     void Start()
     {
@@ -87,25 +91,84 @@ public class Boss : MonoBehaviour
         }
     }
 
+    private IEnumerator BurstShotPattern()
+    {
+        for (int i = 0; i < 3; ++i)
+        {
+            if (BossBulletPrefab != null)
+            {
+                Quaternion FourOClockRot = Quaternion.Euler(0, 0, 210f);
+                Quaternion FiveOClockRot = Quaternion.Euler(0, 0, 195f);
+                Quaternion SixOClockRot = Quaternion.Euler(0, 0, 180f);
+                Quaternion SevenOClockRot = Quaternion.Euler(0, 0, 165f);
+                Quaternion EightOClockRot = Quaternion.Euler(0, 0, 150f);
+
+                Instantiate(BossBulletPrefab, transform.position, FourOClockRot);
+                Instantiate(BossBulletPrefab, transform.position, FiveOClockRot);
+                Instantiate(BossBulletPrefab, transform.position, SixOClockRot);
+                Instantiate(BossBulletPrefab, transform.position, SevenOClockRot);
+                Instantiate(BossBulletPrefab, transform.position, EightOClockRot);
+            }
+
+            yield return new WaitForSeconds(0.3f);
+        }
+    }
+
+    private IEnumerator ClockwiseShotPattern()
+    {
+        float currentAngle = 135f;
+
+        for (int i = 0; i < 10; ++i)
+        {
+            if (BossBulletPrefab != null)
+            {
+                Quaternion rot = Quaternion.Euler(0, 0, currentAngle);
+
+                Instantiate(BossBulletPrefab, transform.position, rot);
+            }
+
+            currentAngle += 15;
+
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
+    private IEnumerator CounterClockwiseShotPattern()
+    {
+        float currentAngle = 225f;
+
+        for (int i = 0; i < 10; ++i)
+        {
+            if (BossBulletPrefab != null)
+            {
+                Quaternion rot = Quaternion.Euler(0, 0, currentAngle);
+
+                Instantiate(BossBulletPrefab, transform.position, rot);
+            }
+
+            currentAngle -= 15;
+
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+
     // 보스의 하이브리드 공격 패턴 로직
     void FireBossWeapon()
     {
         // 스위치(toggleWeapon)를 이용해 3갈래 탄막과 대형 미사일 난사를 번갈아 실행합니다.
-        if (toggleWeapon == false)
+        if (attackPattern == 0)
         {
-            // 패턴 A: 일반 총알 부채꼴 3갈래 발사
-            if (EnemyBulletPrefab != null)
-            {
-                Quaternion centerRot = Quaternion.Euler(0, 0, 180f);
-                Quaternion leftRot = Quaternion.Euler(0, 0, 160f);
-                Quaternion rightRot = Quaternion.Euler(0, 0, 200f);
-
-                Instantiate(EnemyBulletPrefab, transform.position, centerRot);
-                Instantiate(EnemyBulletPrefab, transform.position, leftRot);
-                Instantiate(EnemyBulletPrefab, transform.position, rightRot);
-            }
+            StartCoroutine(BurstShotPattern());
         }
-        else
+        else if (attackPattern == 1)
+        {
+            StartCoroutine(ClockwiseShotPattern());
+        }
+        else if (attackPattern == 2)
+        {
+            StartCoroutine(CounterClockwiseShotPattern());
+        }
+        else if (attackPattern == 3)
         {
             // 패턴 B: 보스 전용 미사일 일직선 하방 발사! (살짝 벌려진 2개 열로 뿜어내기)
             if (BossMissilePrefab != null)
@@ -118,9 +181,7 @@ public class Boss : MonoBehaviour
                 Instantiate(BossMissilePrefab, rightWing, downRot);
             }
         }
-
-        // 다음 공격 때는 다른 무기가 나가도록 스위치 전환
-        toggleWeapon = !toggleWeapon;
+        attackPattern = (attackPattern + 1) % 3;
     }
 
     private void OnTriggerEnter2D(Collider2D collider)

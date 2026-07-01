@@ -9,6 +9,7 @@ TagManager:
   - Obstacle
   - Item
   - HpItem
+  - BossLaser
   layers:
   - Default
   - TransparentFX

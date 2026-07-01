@@ -171,6 +171,13 @@ public class PlayerCombat : MonoBehaviour
 
             GameManager.Instance.UpdateLife(PlayerHp);
         }
+
+        if (collider.gameObject.CompareTag("BossLaser"))
+        {
+            PlayerHp -= 1;
+
+            GameManager.Instance.UpdateLife(PlayerHp);
+        }
     }
 
     // 4. 피격 시 무적/깜빡임 연출 코루틴
