@@ -130,7 +130,7 @@ public class Boss : MonoBehaviour
 
         float currentAngle = 120f;
 
-        for (int i = 0; i < 18; ++i)
+        for (int i = 0; i < 15; ++i)
         {
             if (BossBulletPrefab != null)
             {
@@ -139,7 +139,7 @@ public class Boss : MonoBehaviour
                 Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
-            currentAngle += 7.5f;
+            currentAngle += 8.5f;
 
             yield return new WaitForSeconds(0.1f);
         }
@@ -153,7 +153,7 @@ public class Boss : MonoBehaviour
 
         float currentAngle = 210f;
 
-        for (int i = 0; i < 18; ++i)
+        for (int i = 0; i < 15; ++i)
         {
             if (BossBulletPrefab != null)
             {
@@ -162,7 +162,7 @@ public class Boss : MonoBehaviour
                 Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
-            currentAngle -= 7.5f;
+            currentAngle -= 8.5f;
 
             yield return new WaitForSeconds(0.1f);
         }
@@ -173,6 +173,7 @@ public class Boss : MonoBehaviour
     private IEnumerator LaserBeamPattern()
     {
         bossAnim.BossLaserAnim(true);
+        bossAnim.BossLaser(true);
 
         yield return new WaitForSeconds(0.5f);
 
@@ -189,6 +190,7 @@ public class Boss : MonoBehaviour
         }
 
         bossAnim.BossLaserAnim(false);
+        bossAnim.BossLaser(false);
     }
 
     // 보스의 하이브리드 공격 패턴 로직
