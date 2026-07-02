@@ -173,24 +173,33 @@ public class Boss : MonoBehaviour
     private IEnumerator LaserBeamPattern()
     {
         bossAnim.BossLaserAnim(true);
-        bossAnim.BossLaser(true);
+        bossAnim.BossLaserBeam(true);
+
+        GameObject spawnedLaser = null;
 
         yield return new WaitForSeconds(0.5f);
 
         if (LaserBeamObject != null)
         {
-            LaserBeamObject.SetActive(true);
+            spawnedLaser = Instantiate
+                (LaserBeamObject, FirePoint.position, Quaternion.identity, transform);
+
+            spawnedLaser.transform.SetParent(FirePoint);
+
+            spawnedLaser.transform.localPosition = Vector3.zero;
+
+            Animator laserAnimator = spawnedLaser.GetComponentInChildren<Animator>();
         }
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(2.0f);
 
-        if (LaserBeamObject != null)
+        if (spawnedLaser != null)
         {
-            LaserBeamObject.SetActive(false);
+            Destroy(spawnedLaser);
         }
 
         bossAnim.BossLaserAnim(false);
-        bossAnim.BossLaser(false);
+        bossAnim.BossLaserBeam(false);
     }
 
     // 보스의 하이브리드 공격 패턴 로직
@@ -232,6 +241,11 @@ public class Boss : MonoBehaviour
 
             lastFireTime = Time.time + 0.5f;
         }
+
+        //else if (attackPattern == 3)
+        //{
+
+        //}
 
         else
         {

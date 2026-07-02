@@ -20,7 +20,7 @@ public class BossAnimation : MonoBehaviour
         anim.SetBool("isLasing", isTrue);
     }
 
-    public void BossLaser(bool isTrue)
+    public void BossLaserBeam(bool isTrue)
     {
         anim.SetBool("isBeam", isTrue);
     }
