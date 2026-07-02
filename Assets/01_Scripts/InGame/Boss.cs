@@ -9,7 +9,7 @@ public class Boss : MonoBehaviour
 
     [Header("Prefabs")]
     //public GameObject EnemyBulletPrefab; // 일반 3갈래 적 총알 프리팹
-    public GameObject BossMissilePrefab; // 보스 전용 대형 미사일 프리팹
+    //public GameObject BossMissilePrefab; // 보스 전용 대형 미사일 프리팹
     public GameObject BossBulletPrefab;
     public GameObject LaserBeamObject;
 
@@ -128,9 +128,9 @@ public class Boss : MonoBehaviour
     {
         bossAnim.BossBulletAnim(true);
 
-        float currentAngle = 135f;
+        float currentAngle = 120f;
 
-        for (int i = 0; i < 10; ++i)
+        for (int i = 0; i < 18; ++i)
         {
             if (BossBulletPrefab != null)
             {
@@ -139,7 +139,7 @@ public class Boss : MonoBehaviour
                 Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
-            currentAngle += 15;
+            currentAngle += 7.5f;
 
             yield return new WaitForSeconds(0.1f);
         }
@@ -151,9 +151,9 @@ public class Boss : MonoBehaviour
     {
         bossAnim.BossBulletAnim(true);
 
-        float currentAngle = 225f;
+        float currentAngle = 210f;
 
-        for (int i = 0; i < 10; ++i)
+        for (int i = 0; i < 18; ++i)
         {
             if (BossBulletPrefab != null)
             {
@@ -162,7 +162,7 @@ public class Boss : MonoBehaviour
                 Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
-            currentAngle -= 15;
+            currentAngle -= 7.5f;
 
             yield return new WaitForSeconds(0.1f);
         }
@@ -181,7 +181,7 @@ public class Boss : MonoBehaviour
             LaserBeamObject.SetActive(true);
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(2);
 
         if (LaserBeamObject != null)
         {
@@ -233,7 +233,7 @@ public class Boss : MonoBehaviour
 
         else
         {
-            lastFireTime = Time.time;
+            lastFireTime = Time.time + 0.05f;
         }
     }
 

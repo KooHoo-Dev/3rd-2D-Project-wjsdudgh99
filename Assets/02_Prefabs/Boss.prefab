@@ -110,7 +110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Boss
   Hp: 400
   Speed: 1.5
-  BossMissilePrefab: {fileID: 3037194538079990489, guid: cc4915b1070b4504da2018356829f7f5, type: 3}
   BossBulletPrefab: {fileID: 6972785404093641410, guid: f348018614b172c4883fcaa71a025502, type: 3}
   LaserBeamObject: {fileID: 5403456595034284755}
   FireRate: 1
@@ -204,8 +203,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 502786704726392793}
-  - component: {fileID: 8594509740631318272}
+  - component: {fileID: 3916725610165744297}
   - component: {fileID: 6801991265207584279}
+  - component: {fileID: 4029056351624381830}
   m_Layer: 0
   m_Name: LaserBeam
   m_TagString: BossLaser
@@ -228,7 +228,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7091153801650617283}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!120 &8594509740631318272
+--- !u!120 &3916725610165744297
 LineRenderer:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -282,13 +282,13 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 0.3
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.19753075
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -300,7 +300,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
+      key0: {r: 0, g: 0.75504446, b: 1, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -384,6 +384,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4029056351624381830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403456595034284755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97752fc727ab0db44839e32d007f9e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LaserBeam
 --- !u!1 &7506815453773541537
 GameObject:
   m_ObjectHideFlags: 0
