@@ -107,76 +107,65 @@ public class PlayerCombat : MonoBehaviour
     }
 
     // 3. 충돌 처리 (장애물이나 적 비행기와 부딪혔을 때)
-    private void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerStay2D(Collider2D collider)
     {
+        // 최상단 무적/사망 방어벽
+        if (IsDead || isColliding) return;
+
+        // 1. 장애물이나 적 비행기와 부딪혔을 때
         if (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy"))
         {
-            if (IsDead == true)
-            {
-                return;
-            }
-
-            if (isColliding == true)
-            {
-                return;
-            }
-
-            isColliding = true;
-
-            PlayerHp -= 1;
-
-            GameManager.Instance.UpdateLife(PlayerHp);
-
             Destroy(collider.gameObject);
-
-            if (PlayerHp <= 0)
-            {
-                IsDead = true;
-
-                GameManager.Instance.TriggerGameOver();
-
-                Destroy(gameObject);
-
-                return;
-            }
-
-            if (PlayerHp > 0)
-            {
-                StartCoroutine(CollisionEffect());
-            }
+            ProcessDamage();
+            return; // 처리 후 탈출
         }
 
-        if (collider.gameObject.CompareTag("Item"))
-        {
-            WeaponLevel += 1;
-
-            Destroy(collider.gameObject);
-
-            if (WeaponLevel > 3)
-            {
-                WeaponLevel = 3;
-            }
-        }
-
-        if (collider.gameObject.CompareTag("HpItem"))
-        {
-            PlayerHp += 1;
-
-            if (PlayerHp > 5)
-            {
-                PlayerHp = 5;
-            }
-
-            Destroy(collider.gameObject);
-
-            GameManager.Instance.UpdateLife(PlayerHp);
-        }
-
+        // 2. 보스 레이저에 맞았을 때
         if (collider.gameObject.CompareTag("BossLaser"))
         {
-            PlayerHp -= 1;
+            Debug.Log("레이저에 맞음");
+            ProcessDamage();
+            return; // 처리 후 탈출
+        }
 
+        // 3. 아이템 획득
+        if (collider.gameObject.CompareTag("Item"))
+        {
+            Debug.Log("총알 강화 아이템을 먹음");
+            WeaponLevel += 1;
+            if (WeaponLevel > 3) WeaponLevel = 3;
+            Destroy(collider.gameObject);
+        }
+
+        // 4. 체력 회복 아이템 획득
+        if (collider.gameObject.CompareTag("HpItem"))
+        {
+            Debug.Log("체력 회복 아이템을 먹음");
+            PlayerHp += 1;
+            if (PlayerHp > 9) PlayerHp = 9;
+            Destroy(collider.gameObject);
             GameManager.Instance.UpdateLife(PlayerHp);
+        }
+    }
+
+    // 🔥 [새로 만든 대미지 전용 안전 함수]
+    private void ProcessDamage()
+    {
+        isColliding = true;
+        PlayerHp -= 1;
+        GameManager.Instance.UpdateLife(PlayerHp);
+
+        if (PlayerHp <= 0)
+        {
+            Debug.Log("죽음");
+            IsDead = true;
+            GameManager.Instance.TriggerGameOver();
+            Destroy(gameObject);
+        }
+        else
+        {
+            Debug.Log("체력이 1 까임");
+            StartCoroutine(CollisionEffect());
         }
     }
 

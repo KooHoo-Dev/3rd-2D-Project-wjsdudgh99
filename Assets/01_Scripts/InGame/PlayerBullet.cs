@@ -29,7 +29,7 @@ public class PlayerBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.CompareTag("Enemy") || collider.gameObject.CompareTag("Boss"))
+        if (collider.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
         }

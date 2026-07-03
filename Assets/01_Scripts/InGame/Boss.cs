@@ -130,7 +130,7 @@ public class Boss : MonoBehaviour
 
         float currentAngle = 120f;
 
-        for (int i = 0; i < 15; ++i)
+        for (int i = 0; i < 12; ++i)
         {
             if (BossBulletPrefab != null)
             {
@@ -139,7 +139,7 @@ public class Boss : MonoBehaviour
                 Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
-            currentAngle += 8.5f;
+            currentAngle += 12f;
 
             yield return new WaitForSeconds(0.1f);
         }
@@ -151,9 +151,9 @@ public class Boss : MonoBehaviour
     {
         bossAnim.BossBulletAnim(true);
 
-        float currentAngle = 210f;
+        float currentAngle = 240f;
 
-        for (int i = 0; i < 15; ++i)
+        for (int i = 0; i < 12; ++i)
         {
             if (BossBulletPrefab != null)
             {
@@ -162,7 +162,7 @@ public class Boss : MonoBehaviour
                 Instantiate(BossBulletPrefab, FirePoint.position, rot);
             }
 
-            currentAngle -= 8.5f;
+            currentAngle -= 12f;
 
             yield return new WaitForSeconds(0.1f);
         }
@@ -177,7 +177,7 @@ public class Boss : MonoBehaviour
 
         GameObject spawnedLaser = null;
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.0f);
 
         if (LaserBeamObject != null)
         {
@@ -191,7 +191,7 @@ public class Boss : MonoBehaviour
             Animator laserAnimator = spawnedLaser.GetComponentInChildren<Animator>();
         }
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(1.5f);
 
         if (spawnedLaser != null)
         {
