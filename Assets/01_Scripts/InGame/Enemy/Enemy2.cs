@@ -21,7 +21,7 @@ public class Enemy2 : MonoBehaviour
     public float PatrolRange = 1.5f;
 
     public GameObject PowerUpItemPrefab;
-    
+    public GameObject DeathEffectPrefab;
 
 
     // [추가] 처음 출발할 방향을 결정하기 위한 변수 (true면 오른쪽 우선, false면 왼쪽 우선)
@@ -156,6 +156,11 @@ public class Enemy2 : MonoBehaviour
                     Instantiate(PowerUpItemPrefab, transform.position, Quaternion.identity);
 
                     GameManager.Instance.DeadEnemyCount = 0;
+                }
+
+                if (DeathEffectPrefab != null)
+                {
+                    Instantiate(DeathEffectPrefab, transform.position, Quaternion.identity);
                 }
 
                 Destroy(gameObject);

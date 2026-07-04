@@ -6,6 +6,7 @@ public class NormalEnemy : MonoBehaviour
     public float Speed = 3.0f;
 
     public GameObject HpUpItemPrefab;
+    public GameObject DeathEffectPrefab;
 
     void Update()
     {
@@ -35,6 +36,11 @@ public class NormalEnemy : MonoBehaviour
                 Instantiate(HpUpItemPrefab, transform.position, Quaternion.identity);
 
                 GameManager.Instance.DeadEnemyCount = 0;
+            }
+
+            if (DeathEffectPrefab != null)
+            {
+                Instantiate(DeathEffectPrefab, transform.position, Quaternion.identity);
             }
 
             Destroy(gameObject); // 적 비행기 파괴

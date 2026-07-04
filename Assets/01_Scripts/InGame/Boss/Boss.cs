@@ -6,12 +6,14 @@ public class Boss : MonoBehaviour
     [Header("Boss Stats")]
     public int Hp = 350;                 // 기획서 반영: 높은 체력
     public float Speed = 1.5f;           // 기획서 반영: 대형기 특유의 느릿하고 묵직한 속도
+    private bool isDead = false;
 
     [Header("Prefabs")]
     //public GameObject EnemyBulletPrefab; // 일반 3갈래 적 총알 프리팹
     //public GameObject BossMissilePrefab; // 보스 전용 대형 미사일 프리팹
     public GameObject BossBulletPrefab;
     public GameObject LaserBeamObject;
+    public GameObject DeathEffectPrefab;
 
     [Header("Attack Settings")]
     public float FireRate = 1.5f;        // 공격 주기 (1.5초마다 무기 번갈아 발사)
@@ -255,6 +257,8 @@ public class Boss : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
+        if (isDead == true) return;
+
         // 플레이어의 총알에 맞았을 때
         if (collider.gameObject.CompareTag("PlayerBullet"))
         {
@@ -262,17 +266,32 @@ public class Boss : MonoBehaviour
 
             Hp -= 1; // 보스 체력 차감
 
-            // 보스가 피격될 때마다 점수를 소량 가산하는 기획 반영 (과제 피드백 만족)
             GameManager.Instance.AddScore(10);
 
             // 350방을 모두 버텨내고 격추당했을 때
             if (Hp <= 0)
             {
+                isDead = true;
+                Debug.Log("보스 처치");
+
                 GameManager.Instance.AddScore(5000); // 보스 클리어 대량 보너스 점수!
+
+                if (DeathEffectPrefab != null)
+                {
+                    GameObject eff = Instantiate(DeathEffectPrefab, transform.position, Quaternion.identity);
+
+                    eff.transform.position = new Vector3(eff.transform.position.x, eff.transform.position.y, 0f);
+
+                    Animator effAnim = eff.GetComponent<Animator>();
+                    if (effAnim != null)
+                    {
+                        effAnim.Play("Boss DeathEffect", 0, 0.0f);
+                    }
+                }
 
                 GameManager.Instance.TriggerVictoryClear();
 
-                Destroy(gameObject); // 보스 파괴
+                Destroy(gameObject);
 
             }
         }

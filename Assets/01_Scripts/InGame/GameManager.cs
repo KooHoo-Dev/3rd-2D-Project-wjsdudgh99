@@ -169,6 +169,13 @@ public class GameManager : MonoBehaviour
             EnemySpawner.SetActive(false);
         }
 
+        StartCoroutine(GameOverDelay());
+    }
+
+    private IEnumerator GameOverDelay()
+    {
+        yield return new WaitForSeconds(2);
+
         if (GameOverCanvas != null)
         {
             GameOverCanvas.SetActive(true);
@@ -183,6 +190,19 @@ public class GameManager : MonoBehaviour
 
         isGameOver = true;
         Debug.Log("VICTORY");
+
+        if (EnemySpawner != null)
+        {
+            EnemySpawner.SetActive(false);
+        }
+
+        StartCoroutine(VictoryDelay());
+
+    }
+
+    private IEnumerator VictoryDelay()
+    {
+        yield return new WaitForSeconds(2);
 
         if (VictoryCanvas != null)
         {

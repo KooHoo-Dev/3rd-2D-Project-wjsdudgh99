@@ -108,11 +108,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95fa5e13b22d79c45aa02454a356a7fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Boss
-  Hp: 400
+  Hp: 10
   Speed: 1.5
   BossBulletPrefab: {fileID: 6972785404093641410, guid: f348018614b172c4883fcaa71a025502, type: 3}
   LaserBeamObject: {fileID: 2170290367428691570, guid: 7793f2e360a1f1b4badd61309da3bc15, type: 3}
-  FireRate: 1.3
+  DeathEffectPrefab: {fileID: 5789435869222359494, guid: 50afe9b7a15472949874a77f9ab44efe, type: 3}
+  FireRate: 2
   FirePoint: {fileID: 7091153801650617283}
 --- !u!114 &-3640017573916256653
 MonoBehaviour:

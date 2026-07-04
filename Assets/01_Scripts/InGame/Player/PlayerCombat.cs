@@ -7,6 +7,7 @@ public class PlayerCombat : MonoBehaviour
     // public 필드는 Microsoft 컨벤션(PascalCase) 준수
     public float Speed = 1.0f;
     public GameObject BulletPrefab; // 총알 프리팹을 담을 변수
+    public GameObject DeathEffectPrefab;
 
 
     // 자동 연사를 위한 타이머 변수
@@ -148,7 +149,6 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // 🔥 [새로 만든 대미지 전용 안전 함수]
     private void ProcessDamage()
     {
         isColliding = true;
@@ -159,7 +159,23 @@ public class PlayerCombat : MonoBehaviour
         {
             Debug.Log("죽음");
             IsDead = true;
+
+            if (DeathEffectPrefab != null)
+            {
+                GameObject eff = Instantiate(DeathEffectPrefab, transform.position, Quaternion.identity);
+
+                eff.transform.position =
+                    new Vector3(eff.transform.position.x, eff.transform.position.y, 0f);
+
+                Animator effAnim = eff.GetComponent<Animator>();
+                if (effAnim != null)
+                {
+                    effAnim.Play("Player DeathEffect", 0, 0.0f);
+                }
+            }
+
             GameManager.Instance.TriggerGameOver();
+
             Destroy(gameObject);
         }
         else

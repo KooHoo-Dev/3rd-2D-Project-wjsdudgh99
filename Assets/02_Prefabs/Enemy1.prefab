@@ -143,3 +143,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NormalEnemy
   Speed: 4
   HpUpItemPrefab: {fileID: 4237975273314680418, guid: 52c99ebfeffb64e40b54b7810bec3c5c, type: 3}
+  DeathEffectPrefab: {fileID: 4985864207780276795, guid: 1737ef2ad283d3f4fb8e5599824cb242, type: 3}

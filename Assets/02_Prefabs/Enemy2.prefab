@@ -157,3 +157,4 @@ MonoBehaviour:
   FireRate: 2.5
   PatrolRange: 1.5
   PowerUpItemPrefab: {fileID: 2295233444576014116, guid: 1be4a3d5d6102b24eb17d360d8b971f3, type: 3}
+  DeathEffectPrefab: {fileID: 823660319009488884, guid: d1dbca9b77432d844a26598b1413875b, type: 3}
