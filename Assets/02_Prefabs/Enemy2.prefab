@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2874564314337683368}
   - component: {fileID: 1866249369656421018}
   - component: {fileID: 142953495285974710}
+  - component: {fileID: 1197606330512328371}
+  - component: {fileID: -1702152389806785089}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Enemy
@@ -83,7 +85,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -988293346537154075, guid: f07ccba60e6d9dc4f8af4e03a60c26b2, type: 3}
+  m_Sprite: {fileID: 530421726806456442, guid: 797e2de49931cdb4ba8a11c600c39a7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,13 +133,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.25, y: 1.65}
+    oldSize: {x: 1.25, y: 1.7}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.2, y: 1.6}
   m_EdgeRadius: 0
 --- !u!114 &142953495285974710
 MonoBehaviour:
@@ -158,3 +160,37 @@ MonoBehaviour:
   PatrolRange: 1.5
   PowerUpItemPrefab: {fileID: 2295233444576014116, guid: 1be4a3d5d6102b24eb17d360d8b971f3, type: 3}
   DeathEffectPrefab: {fileID: 823660319009488884, guid: d1dbca9b77432d844a26598b1413875b, type: 3}
+--- !u!95 &1197606330512328371
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6875628784247006498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 348f23dec0cda6c4e95aa003219ef191, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1702152389806785089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6875628784247006498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa923fb9e5678e498dffaa7cadac40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy2Animation

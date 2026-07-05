@@ -23,6 +23,8 @@ public class Enemy2 : MonoBehaviour
     public GameObject PowerUpItemPrefab;
     public GameObject DeathEffectPrefab;
 
+    private Enemy2Animation Enemy2Anim;
+
 
     // [추가] 처음 출발할 방향을 결정하기 위한 변수 (true면 오른쪽 우선, false면 왼쪽 우선)
     private bool isHeadingRightFirst = true;
@@ -48,6 +50,8 @@ public class Enemy2 : MonoBehaviour
             rightX = startX;
             isHeadingRightFirst = false;          // 처음엔 무조건 왼쪽으로 출발!
         }
+
+        Enemy2Anim = GetComponent<Enemy2Animation>();
     }
 
     void Update()
@@ -84,42 +88,40 @@ public class Enemy2 : MonoBehaviour
         }
     }
 
-    // C# 표준에 맞게 수정된 안전한 순찰 코루틴
     private IEnumerator PatrolRoutine()
     {
-        // 처음 도착했을 때는 일단 현재 위치를 유지
         targetPosition = transform.position;
 
-        // [핵심 변경] 오른쪽에서 스폰된 적(isHeadingRightFirst가 false인 적)은 
-        // 처음 게임이 시작될 때 '오른쪽 이동'을 건너뛰도록 flag 역할을 해줄 변수입니다.
         bool skipRightFirst = !isHeadingRightFirst;
 
         while (true)
         {
-            // 1. 오른쪽 끝으로 이동 (skipRightFirst가 true라면 이 단계를 완전히 건너뜁니다)
             if (skipRightFirst == false)
             {
+                if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(2);
+
                 targetPosition = new Vector3(rightX, targetY, 0f);
                 while (transform.position.x < rightX - 0.05f)
                 {
                     yield return null;
                 }
 
-                // 오른쪽 끝에 완전히 도착했으므로 1초 동안 정지
+                if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(0);
                 yield return new WaitForSeconds(1.0f);
             }
 
-            // 첫 루프에서 한 번 건너뛰었다면, 다음 루프부터는 정상 작동하도록 변수를 풀어줍니다.
             skipRightFirst = false;
 
-            // 2. 왼쪽 끝으로 이동
+
+            if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(1);
+
             targetPosition = new Vector3(leftX, targetY, 0f);
             while (transform.position.x > leftX + 0.05f)
             {
                 yield return null;
             }
 
-            // 왼쪽 끝에 완전히 도착했으므로 1초 동안 정지
+            if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(0);
             yield return new WaitForSeconds(1.0f);
         }
     }

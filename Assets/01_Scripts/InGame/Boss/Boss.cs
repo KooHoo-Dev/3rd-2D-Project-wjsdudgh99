@@ -4,7 +4,7 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
     [Header("Boss Stats")]
-    public int Hp = 350;                 // 기획서 반영: 높은 체력
+    public int Hp = 500;                 // 기획서 반영: 높은 체력
     public float Speed = 1.5f;           // 기획서 반영: 대형기 특유의 느릿하고 묵직한 속도
     private bool isDead = false;
 
@@ -222,16 +222,7 @@ public class Boss : MonoBehaviour
         else if (attackPattern == 3)
         {
             StartCoroutine(LaserBeamPattern());
-            // 패턴 B: 보스 전용 미사일 일직선 하방 발사! (살짝 벌려진 2개 열로 뿜어내기)
-            //if (BossMissilePrefab != null)
-            //{
-            //    Quaternion downRot = Quaternion.Euler(0, 0, 180f);
-            //    Vector3 leftWing = transform.position + new Vector3(-0.5f, -0.5f, 0f);
-            //    Vector3 rightWing = transform.position + new Vector3(0.5f, -0.5f, 0f);
-
-            //    Instantiate(BossMissilePrefab, leftWing, downRot);
-            //    Instantiate(BossMissilePrefab, rightWing, downRot);
-            //}
+            
         }
         patternRepeatCount += 1;
 
@@ -243,11 +234,6 @@ public class Boss : MonoBehaviour
 
             lastFireTime = Time.time + 0.5f;
         }
-
-        //else if (attackPattern == 3)
-        //{
-
-        //}
 
         else
         {
