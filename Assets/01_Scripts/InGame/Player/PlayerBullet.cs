@@ -19,10 +19,8 @@ public class PlayerBullet : MonoBehaviour
             Destroy(gameObject);
         }
 
-        // 스페이스바가 이번 프레임에 눌렸다면 총알 생성 (인풋 시스템 방식)
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            // 현재 플레이어 위치(transform.position)에 회전 없이(Quaternion.identity) 총알 프리팹 생성
             Instantiate(BulletPrefab, transform.position, Quaternion.identity);
         }
     }

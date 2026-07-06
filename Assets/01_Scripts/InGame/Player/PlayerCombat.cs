@@ -4,15 +4,13 @@ using UnityEngine.InputSystem;
 
 public class PlayerCombat : MonoBehaviour
 {
-    // public 필드는 Microsoft 컨벤션(PascalCase) 준수
     public float Speed = 1.0f;
-    public GameObject BulletPrefab; // 총알 프리팹을 담을 변수
+    public GameObject BulletPrefab; 
     public GameObject DeathEffectPrefab;
 
 
-    // 자동 연사를 위한 타이머 변수
-    public float FireRate = 0.2f;   // 총알 발사 간격 (0.2초에 한 번씩 발사)
-    private float lastFireTime = 0f; // 마지막으로 총알을 발사한 시각을 저장
+    public float FireRate = 0.2f;   
+    private float lastFireTime = 0f; 
 
     private SpriteRenderer spriteRenderer;
     private bool isColliding = false;
@@ -60,25 +58,17 @@ public class PlayerCombat : MonoBehaviour
         moveVector = moveVector * Speed * Time.deltaTime;
         transform.position += moveVector;
 
-        // [새로 추가된 로직] 플레이어 화면 밖 이탈 방지 (화면 가두기)
-        // 일반적인 16:9 해상도의 종스크롤 슈팅 기준 안전 구역입니다.
-        // Mathf.Clamp(현재값, 최소값, 최대값) -> 현재값이 최소와 최대 범위를 절대 벗어나지 못하게 꽉 잡아줍니다.
         float clampedX = Mathf.Clamp(transform.position.x, -2.8f, 2.8f);
         float clampedY = Mathf.Clamp(transform.position.y, -4.8f, 4.8f);
 
-        // 제한된 좌표를 플레이어 위치에 다시 강제로 대입합니다.
         transform.position = new Vector3(clampedX, clampedY, 0f);
 
-        // 2. 꾹 누르면 자동 연사되는 총알 발사 로직
         if (Keyboard.current.spaceKey.isPressed)
         {
-            // 현재 게임 시간이 [마지막 발사 시간 + 연사 간격]보다 커졌는지 확인
             if (Time.time >= lastFireTime + FireRate)
             {
                 if (BulletPrefab != null)
                 {
-                    // 플레이어의 현재 위치에 총알 생성 및 발사 시간 기록
-
                     if (WeaponLevel == 1)
                     {
                         Instantiate(BulletPrefab, transform.position, Quaternion.identity);
@@ -107,10 +97,8 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // 3. 충돌 처리 (장애물이나 적 비행기와 부딪혔을 때)
     private void OnTriggerStay2D(Collider2D collider)
     {
-        // 3. 아이템 획득
         if (collider.gameObject.CompareTag("Item"))
         {
             Debug.Log("총알 강화 아이템을 먹음");
@@ -119,7 +107,6 @@ public class PlayerCombat : MonoBehaviour
             Destroy(collider.gameObject);
         }
 
-        // 4. 체력 회복 아이템 획득
         if (collider.gameObject.CompareTag("HpItem"))
         {
             Debug.Log("체력 회복 아이템을 먹음");
@@ -129,23 +116,20 @@ public class PlayerCombat : MonoBehaviour
             GameManager.Instance.UpdateLife(PlayerHp);
         }
 
-        // 최상단 무적/사망 방어벽
         if (IsDead || isColliding) return;
 
-        // 1. 장애물이나 적 비행기와 부딪혔을 때
         if (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy"))
         {
             Destroy(collider.gameObject);
             ProcessDamage();
-            return; // 처리 후 탈출
+            return; 
         }
 
-        // 2. 보스 레이저에 맞았을 때
         if (collider.gameObject.CompareTag("BossLaser"))
         {
             Debug.Log("레이저에 맞음");
             ProcessDamage();
-            return; // 처리 후 탈출
+            return; 
         }
     }
 
@@ -185,14 +169,13 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // 4. 피격 시 무적/깜빡임 연출 코루틴
     private IEnumerator CollisionEffect()
     {
         isColliding = true;
 
         Color origin = spriteRenderer.color;
         Color effect = spriteRenderer.color;
-        effect.a = 0.2f; // 알파값을 흐리게 변경
+        effect.a = 0.2f; 
 
         float term = 0.1f;
 

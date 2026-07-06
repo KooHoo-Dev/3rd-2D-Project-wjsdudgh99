@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Enemy2 : MonoBehaviour
 {
-    // 기획서 속성 반영
     public int Hp = 7;
     public float Speed = 3.0f;
 
@@ -24,30 +23,23 @@ public class Enemy2 : MonoBehaviour
 
     private Enemy2Animation Enemy2Anim;
 
-
-    // [추가] 처음 출발할 방향을 결정하기 위한 변수 (true면 오른쪽 우선, false면 왼쪽 우선)
     private bool isHeadingRightFirst = true;
 
     void Awake()
     {
         float startX = transform.position.x;
 
-        // [핵심 변경] 생성된 X 좌표를 기반으로 첫 이동 방향을 결정합니다.
         if (startX < 0)
         {
-            // 1. 왼쪽 공간(X가 0보다 작음)에서 태어난 경우
-            // 맵 왼쪽을 뚫지 않도록, 순찰 범위를 '현재 위치 ~ 오른쪽'으로만 제한합니다.
             leftX = startX;
-            rightX = startX + (PatrolRange * 2f); // 오른쪽으로 길게 범위를 잡음
-            isHeadingRightFirst = true;           // 처음엔 무조건 오른쪽으로 출발!
+            rightX = startX + (PatrolRange * 2f); 
+            isHeadingRightFirst = true;           
         }
         else
         {
-            // 2. 오른쪽 공간(X가 0보다 크거나 같음)에서 태어난 경우
-            // 맵 오른쪽을 뚫지 않도록, 순찰 범위를 '왼쪽 ~ 현재 위치'로 제한합니다.
-            leftX = startX - (PatrolRange * 2f); // 왼쪽으로 길게 범위를 잡음
+            leftX = startX - (PatrolRange * 2f); 
             rightX = startX;
-            isHeadingRightFirst = false;          // 처음엔 무조건 왼쪽으로 출발!
+            isHeadingRightFirst = false;     
         }
 
         Enemy2Anim = GetComponent<Enemy2Animation>();
@@ -55,7 +47,6 @@ public class Enemy2 : MonoBehaviour
 
     void Update()
     {
-        // 1. 아직 목적지 Y에 도달하지 않았다면 아래로 직선 이동
         if (isArrived == false)
         {
             Vector3 moveVector = new Vector3(0, -1f, 0);
@@ -66,17 +57,14 @@ public class Enemy2 : MonoBehaviour
                 transform.position = new Vector3(transform.position.x, targetY, 0f);
                 isArrived = true;
 
-                // 자리에 도착하면 순찰 시작
                 StartCoroutine(PatrolRoutine());
             }
         }
         else
         {
-            // 2. 코루틴이 정해주는 targetPosition을 향해 부드럽게 이동
             transform.position = Vector3.MoveTowards(transform.position, targetPosition, Speed * Time.deltaTime);
         }
 
-        // 3. 3갈래 총알 발사 로직 (기존 유지)
         if (Time.time >= lastFireTime + FireRate)
         {
             if (EnemyBulletPrefab != null)
@@ -124,7 +112,6 @@ public class Enemy2 : MonoBehaviour
         }
     }
 
-    // 3갈래 발사 로직 (기존 유지)
     void FireThreeWay()
     {
         Quaternion centerRotation = Quaternion.Euler(0, 0, 180f);
@@ -145,7 +132,7 @@ public class Enemy2 : MonoBehaviour
 
             if (Hp <= 0)
             {
-                GameManager.Instance.AddScore(300); // 맷집 강한 엘리트 적 격추 시 300점 추가
+                GameManager.Instance.AddScore(300); 
 
                 GameManager.Instance.DeadEnemyCount++;
 
