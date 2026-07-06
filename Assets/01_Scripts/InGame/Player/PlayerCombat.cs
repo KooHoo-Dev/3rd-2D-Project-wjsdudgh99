@@ -110,25 +110,6 @@ public class PlayerCombat : MonoBehaviour
     // 3. 충돌 처리 (장애물이나 적 비행기와 부딪혔을 때)
     private void OnTriggerStay2D(Collider2D collider)
     {
-        // 최상단 무적/사망 방어벽
-        if (IsDead || isColliding) return;
-
-        // 1. 장애물이나 적 비행기와 부딪혔을 때
-        if (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy"))
-        {
-            Destroy(collider.gameObject);
-            ProcessDamage();
-            return; // 처리 후 탈출
-        }
-
-        // 2. 보스 레이저에 맞았을 때
-        if (collider.gameObject.CompareTag("BossLaser"))
-        {
-            Debug.Log("레이저에 맞음");
-            ProcessDamage();
-            return; // 처리 후 탈출
-        }
-
         // 3. 아이템 획득
         if (collider.gameObject.CompareTag("Item"))
         {
@@ -146,6 +127,25 @@ public class PlayerCombat : MonoBehaviour
             if (PlayerHp > 9) PlayerHp = 9;
             Destroy(collider.gameObject);
             GameManager.Instance.UpdateLife(PlayerHp);
+        }
+
+        // 최상단 무적/사망 방어벽
+        if (IsDead || isColliding) return;
+
+        // 1. 장애물이나 적 비행기와 부딪혔을 때
+        if (collider.gameObject.CompareTag("Obstacle") || collider.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(collider.gameObject);
+            ProcessDamage();
+            return; // 처리 후 탈출
+        }
+
+        // 2. 보스 레이저에 맞았을 때
+        if (collider.gameObject.CompareTag("BossLaser"))
+        {
+            Debug.Log("레이저에 맞음");
+            ProcessDamage();
+            return; // 처리 후 탈출
         }
     }
 
@@ -205,6 +205,5 @@ public class PlayerCombat : MonoBehaviour
         }
 
         isColliding = false;
-
     }
 }
