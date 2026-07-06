@@ -110,7 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Boss
   Hp: 500
   Speed: 1.5
-  BossBulletPrefab: {fileID: 6972785404093641410, guid: f348018614b172c4883fcaa71a025502, type: 3}
+  BossBulletPrefab: {fileID: 2481169992336051884, guid: 20396034b3a29e94d908bfcebe662a1e, type: 3}
   LaserBeamObject: {fileID: 2170290367428691570, guid: 7793f2e360a1f1b4badd61309da3bc15, type: 3}
   DeathEffectPrefab: {fileID: 5789435869222359494, guid: 50afe9b7a15472949874a77f9ab44efe, type: 3}
   FireRate: 2
