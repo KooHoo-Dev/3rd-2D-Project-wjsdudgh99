@@ -4,14 +4,13 @@ using UnityEngine;
 public class Enemy2 : MonoBehaviour
 {
     // 기획서 속성 반영
-    public int Hp = 10;
+    public int Hp = 7;
     public float Speed = 3.0f;
 
     public GameObject EnemyBulletPrefab;
     public float FireRate = 1.5f;
     private float lastFireTime = 0f;
 
-    // 이동 패턴 제어를 위한 변수들
     private float targetY = 3.5f;
     private bool isArrived = false;
 
@@ -98,7 +97,7 @@ public class Enemy2 : MonoBehaviour
         {
             if (skipRightFirst == false)
             {
-                if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(2);
+                if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(1);
 
                 targetPosition = new Vector3(rightX, targetY, 0f);
                 while (transform.position.x < rightX - 0.05f)
@@ -112,8 +111,7 @@ public class Enemy2 : MonoBehaviour
 
             skipRightFirst = false;
 
-
-            if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(1);
+            if (Enemy2Anim != null) Enemy2Anim.Enemy2Anim(-1);
 
             targetPosition = new Vector3(leftX, targetY, 0f);
             while (transform.position.x > leftX + 0.05f)

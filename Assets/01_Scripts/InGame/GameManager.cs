@@ -197,7 +197,6 @@ public class GameManager : MonoBehaviour
         }
 
         StartCoroutine(VictoryDelay());
-
     }
 
     private IEnumerator VictoryDelay()
@@ -229,7 +228,6 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
 
     private IEnumerator CountdownRoutine()
     {
